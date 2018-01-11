@@ -11,12 +11,11 @@ ALLEGRO implements two type of solution techniques:
 * Giuseppe De Giacomo and Sebastian Sardina. [Automatic synthesis of new behaviors from a library of available behaviors](https://www.ijcai.org/Proceedings/07/Papers/301.pdf). In Manuela M. Veloso, editor, Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI), pages 1866-1871, Hyderabad, India, January 2007.
 * Giuseppe De Giacomo, Fabio Patrizi, and Sebastian Sardina. [Automatic behavior composition synthesis](http://dx.doi.org/10.1016/j.artint.2012.12.001). Artificial Intelligence Journal, 196:106-142, 2013. (author free copy [here](https://sites.google.com/site/ssardina/publications/aij13-dgps-autocomp.pdf?attredirects=0)
 
-The plain technique and two optimisations have been implemented by the authors of ALLEGRO. 
+    The plain technique and two optimisations have been implemented by the authors of ALLEGRO. 
 
 2. The **search-based technique** implemented by Thomas Stroder and Maurice Pagnucco as a proof-of-concept for their IJCAI'09 article:
 
 * Thomas Ströder, Maurice Pagnucco. [Realising Deterministic Behavior from Multiple Non-Deterministic Behaviors](http://www.ijcai.org/Proceedings/09/Papers/159.pdf). IJCAI 2009: 936-941
-
 
 This README outlines the basic steps to run the ALLEGRO system. The distribution contains both the binary and the source code. An example has been included, in the examples folder, which can serve as a sample to create new problems. A testbed is also provided under `extras/testbed` to run with JAPEX benchmarking system.
 
