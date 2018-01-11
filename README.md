@@ -63,17 +63,17 @@ where `--i` denotes the input XML file and `--o` denotes the output file (if  om
 
 All the source code is present in the `src` directory. In order to compile ALLEGRO one just needs to compile the `Main.java` file, i.e., 
 
-    ```
-    javac Main.java
-    ```
+        ```
+        javac Main.java
+        ```
 
 If before that you want to re-generate the Java sources for the JavaCC grammars, go to the file where the `.jj` file is and execute `javacc <file.jj>`. This should leave many Java sources.
 
 Finally, to run it from the compiled sources (for example after compilation inside IntelliJ):
 
-    ```
-    java -cp out/production/allegro-composer.git/ Main --i=example/KR/KR1.xml
-    ```
+        ```
+        java -cp out/production/allegro-composer.git/ Main --i=example/KR/KR1.xml
+        ```
 
 ## 2. Creating a new behavior composition problem.
 
@@ -143,10 +143,10 @@ Basically, a JAPEX test benchmark is composed of:
 
 So, a test can be run as follows:
 
-    ```
-    cd extras/japex/
-    ant run -f build-KR-simple.xml 
-    ```
+```
+cd extras/japex/
+ant run -f build-KR-simple.xml 
+```
 
 This will produce a subdir `dist/` with all the classes compiled to run the test, and more importantly a dated subdir in `reports/` with the HTML report after the test.
 
