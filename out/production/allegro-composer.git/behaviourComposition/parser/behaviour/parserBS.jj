@@ -1,0 +1,151 @@
+options {
+	STATIC = false ;
+	 JDK_VERSION = "1.5";
+} 
+
+PARSER_BEGIN(parserBS)
+
+package behaviourComposition.parser.behaviour;
+import behaviourComposition.structure.*;
+import behaviourComposition.ai.*;
+import java.util.*;
+import structures.*;
+public class parserBS{
+	ArrayList<String> states = new ArrayList<String>();
+	Behaviour TS = new Behaviour();
+	HashSet <String> setState=new HashSet<String>();
+	HashMap <String,Action> actions = new HashMap<String,Action>();
+	HashSet <String> setStateFinal=new HashSet<String>();
+	String stateInitial=new String();
+	HashSet <Transition> transitions = new HashSet<Transition>();
+	HashSet <String[]> setAction=new HashSet<String[]>();
+	HashMap <Transition,ArrayList<String>> restrictions = new HashMap<Transition,ArrayList<String>>();
+	State s,st;
+	 
+	public Behaviour createTS() throws ParseException, Exception{
+		this.start();
+		return TS;
+	}
+	public HashMap<Transition,ArrayList<String>> getGuards(){return restrictions;}
+	
+}
+
+PARSER_END(parserBS)
+
+/* per invocare il parser:
+parserTS pars=new parserTS(System.in);
+TransitionSystem <SimpleState,SimpleAction> TS= pars.createTS(); 
+*/
+
+SKIP:
+{
+	" "|"\t"|"\n"|"\r"
+}
+
+
+TOKEN:
+{
+	<DIG:		    ("digraph"|"DIGRAPH")>
+	|<LABEL:		("label"|"LABEL")>
+	|<LEGAL:		("legal"|"LEGAL")>
+	|<IN:			("initial"|"INITIAL")>
+	|<FIN:			("final"|"FINAL")>
+	|<IDENTIFIER:	(["a"-"z","A"-"Z","*"])(["a"-"z","A"-"Z","0"-"9","_","$","*"])*>
+	|<ARW:			("-")+(">")>
+	|<PGA:			"{">
+	|<PGC:			"}">
+	|<PQA:			"[">
+	|<PQC:			"]">
+	|<EQ:			"=">
+	|<VR:			",">
+	|<VGT:			"\"">
+}
+
+
+void start()throws Exception:{Token t1; String strNameTs;}
+{ <DIG> t1=<IDENTIFIER> {strNameTs=t1.image;}<PGA> transition() <PGC> <EOF> }
+
+void transition()throws Exception:{Token t1,t2,t3; String str1, str2, str3;State s1,s2; Action a;}
+{ t1=<IDENTIFIER> <ARW> t2=<IDENTIFIER> 
+	{str1=t1.image; str2=t2.image;} <PQA> <LABEL> 
+	 <EQ> <VGT> t3=<IDENTIFIER> {str3=t3.image;}<VGT> <PQC> 
+	 //<PQA>  <LEGAL> <EQ> <PGA> 
+	  { 
+	  	states = new ArrayList<String>();
+	  	guard();	  	
+	  }//<PGC> <PQC>
+	{	
+		//setAction.add(new String[]{str1,str2,str3});
+		//setState.add(str1);
+		//setState.add(str2);
+		//add exception handling for duplicate state name
+
+			if(!actions.containsKey(str3))
+			{
+				Action action = new Action(str3);
+				actions.put(str3,action);
+			}
+			int a1 = TS.getStateNumber(str1);
+			if(a1 <0)
+			{
+				a1 = TS.addState(str1);
+			}
+
+			int a2 = TS.getStateNumber(str2);
+			if(a2<0)
+			{
+				a2 = TS.addState(str2);
+			}
+			Transition trans = TS.addTransition(a1,a2,actions.get(str3));
+			transitions.add(trans);
+			restrictions.put(trans,states);
+		
+	} 
+	transition() | initialState() 
+}
+
+void guard():{Token t;String str;}
+{ 
+	<PQA>  <LEGAL> <EQ> <PGA> 
+	startGuard()
+	<PGC> <PQC> 
+}
+void startGuard():{Token t;String str;}
+{
+	t=<IDENTIFIER> 	{str=t.image; states.add(str);} guard1() | {} 
+}
+void guard1():{Token t;String str;}
+{ 
+	
+	<VR> t=<IDENTIFIER>  	{str=t.image; states.add(str);} guard1() | {} 
+	
+}
+void initialState()throws Exception:{Token t;String str;}
+{ <PQA> <IN> <EQ> <PGA> t=<IDENTIFIER>  
+	{str=t.image; 
+	 stateInitial=str;
+	}
+	<PGC> <PQC> finalState() 
+}
+
+void finalState()throws Exception:{Token t;String str;} 
+{ <PQA> <FIN> <EQ> <PGA> t=<IDENTIFIER> 
+	{str=t.image; 
+	 setStateFinal.add(str);
+	}
+	finalState1() <PGC> 
+	{		
+
+			//TS.addState(factory.createSimpleState(state,isInitial,isFinal));
+			TS.setStartState(TS.getStateNumber(stateInitial));	
+			for(String finalstate : setStateFinal)
+			{
+				TS.setFinalState(TS.getStateNumber(finalstate));
+			}
+		//}			
+	} 
+	<PQC> 
+}
+
+void finalState1():{Token t;String str;}
+{ <VR> t=<IDENTIFIER> 	{str=t.image; setStateFinal.add(str);} finalState1() | {} }

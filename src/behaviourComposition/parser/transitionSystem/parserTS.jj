@@ -1,0 +1,107 @@
+options {
+	STATIC = false ;
+	 JDK_VERSION = "1.5";
+} 
+
+PARSER_BEGIN(parserTS)
+
+package behaviourComposition.parser.transitionSystem;
+import behaviourComposition.structure.*;
+import behaviourComposition.ai.*;
+import java.util.*;
+import structures.* ;
+public class parserTS{
+	
+	TransitionSystem TS = new TransitionSystem();
+	ArraySetList <String> setState=new ArraySetList<String>();
+	HashSet <String> setStateFinal=new HashSet<String>();
+	String stateInitial=new String();
+	HashSet <String[]> setAction=new HashSet<String[]>();
+	
+	State s,st;
+	 
+	public TransitionSystem createTS() throws ParseException, Exception{
+		this.start();
+		return TS;
+	}
+	
+}
+
+PARSER_END(parserTS)
+
+/* per invocare il parser:
+parserTS pars=new parserTS(System.in);
+TransitionSystem <SimpleState,SimpleAction> TS= pars.createTS(); 
+*/
+
+SKIP:
+{
+	" "|"\t"|"\n"|"\r"
+}
+
+
+TOKEN:
+{
+	<DIG:		    ("digraph"|"DIGRAPH")>
+	|<LABEL:		("label"|"LABEL")>
+	|<IN:			("initial"|"INITIAL")>
+	//|<FIN:			("final"|"FINAL")>
+	|<IDENTIFIER:	(["a"-"z","A"-"Z"])(["a"-"z","A"-"Z","0"-"9","_","$"])*>
+	|<ARW:			("-")+(">")>
+	|<PGA:			"{">
+	|<PGC:			"}">
+	|<PQA:			"[">
+	|<PQC:			"]">
+	|<EQ:			"=">
+	|<VR:			",">
+	|<VGT:			"\"">
+}
+
+
+void start()throws Exception:{Token t1; String strNameTs;}
+{ <DIG> t1=<IDENTIFIER> {strNameTs=t1.image;}<PGA> transition() <PGC> <EOF> }
+
+void transition()throws Exception:{Token t1,t2,t3; String str1, str2, str3;State s1,s2; Action a;}
+{ t1=<IDENTIFIER> <ARW> t2=<IDENTIFIER> 
+	{str1=t1.image; str2=t2.image;} <PQA> <LABEL> 
+	 <EQ> <VGT> t3=<IDENTIFIER> {str3=t3.image;}<VGT> <PQC> 
+	{	
+		setAction.add(new String[]{str1,str2,str3});
+		setState.add(str1);
+		setState.add(str2);
+	} 
+	transition() | initialState() 
+}
+
+
+void initialState()throws Exception:{Token t;String str;}
+{ <PQA> <IN> <EQ> <PGA> t=<IDENTIFIER>  
+	{str=t.image; 
+	 stateInitial=str;
+	}
+	<PGC> 
+	{Iterator itState=setState.iterator();
+		while(itState.hasNext()){
+			String state=(String)itState.next();
+			boolean isInitial=stateInitial.equals(state);
+			boolean isFinal=setStateFinal.contains(state);
+			//TS.addState(factory.createSimpleState(state,isInitial,isFinal));
+			int statenum = TS.addState(state);
+			if(isInitial)
+			{
+				TS.setStartState(statenum);	
+			}
+			if(isFinal)
+			{
+				TS.setFinalState(statenum);
+			}
+		}	
+		Iterator itAction=setAction.iterator();
+		while(itAction.hasNext()){
+			String[] actionStr=(String[])itAction.next();
+			//Action action=factory.createSimpleAction(actionStr[2],TS.getState(actionStr[0]),TS.getState(actionStr[1]));
+			Action action = new Action(actionStr[2]);
+			TS.addTransition(TS.getStateNumber(actionStr[0]),TS.getStateNumber(actionStr[1]),action);
+		}
+	}<PQC> 
+}
