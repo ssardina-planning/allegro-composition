@@ -53,10 +53,8 @@ The JavaCC plugins for the IDEs can be found here:
 ### 1.1 How to run the pre-compiled binary version.
 
 The pre-compiled jar package is present in the root directory by the name of `Allegro.jar`. In order to run allegro one needs to pass the behavior composition problem defined as a XML file (see Section 2.2). A sample problem definition is present in the `examples/KR` folder. The solution to the problem can either be redirected to the console or saved in a file. The arguments are passed to the system using the following syntax:
-
-    ```
-    java -jar allegro.jar --i=example/KR/KR1.xml --o=sample.txt
-    ```
+        
+        java -jar allegro.jar --i=example/KR/KR1.xml --o=sample.txt
 
 where `--i` denotes the input XML file and `--o` denotes the output file (if  omitted the result is shown in the console).
 
