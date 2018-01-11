@@ -161,7 +161,7 @@ Then JavaCC will produce the missing .java sources from the grammar specs .jj fi
 
 ## Contributors and Contact
 
-* **Author:** Nitin Yadav (as part of his Maser Thesis - 9/11/2009)
+* **Author:** Nitin Yadav (as part of his Master Thesis - 9/11/2009)
 * **Supervisor:** Sebastian Sardina (ssardina@gmail.com)
 
 
