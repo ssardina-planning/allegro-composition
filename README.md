@@ -13,7 +13,7 @@ ALLEGRO implements two type of solution techniques:
 
 1. The **simulation-based technique** for non-deterministic composition problems was developed here:
 
-    * Sebastian Sardina, Fabio Patrizi, and Giuseppe De Giacomo. Behavior composition in the presence of failure. In Gerhard Brewka and Jerome Lang, editors, Proceedings of Principles of Knowledge Representation and Reasoning (KR), pages 640-650, Sydney, Australia, September 2008. AAAI Press. 
+    * Sebastian Sardina, Fabio Patrizi, and Giuseppe De Giacomo. [Behavior composition in the presence of failure](https://www.aaai.org/Papers/KR/2008/KR08-063.pdf). In Gerhard Brewka and Jerome Lang, editors, Proceedings of Principles of Knowledge Representation and Reasoning (KR), pages 640-650, Sydney, Australia, September 2008. AAAI Press. 
     * Giuseppe De Giacomo, Fabio Patrizi, and Sebastian Sardina. [Automatic behavior composition synthesis](http://dx.doi.org/10.1016/j.artint.2012.12.001). Artificial Intelligence Journal, 196:106-142, 2013. (author free copy [here](https://sites.google.com/site/ssardina/publications/aij13-dgps-autocomp.pdf?attredirects=0)
 
     The plain technique and two optimisations have been implemented by the authors of ALLEGRO. 
