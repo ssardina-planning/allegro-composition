@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tests>
+<test run='1' outputfile='sample.txt'>
+	<environment>environment.txt</environment>
+	<behaviours>
+		<behaviour>A1.txt</behaviour>
+		<behaviour>A2.txt</behaviour>
+		<behaviour>A3.txt</behaviour>
+				<behaviour>A4.txt</behaviour>
+		<behaviour>A5.txt</behaviour>
+
+	</behaviours>
+	<target>T.txt</target>
+</test>
+</tests>

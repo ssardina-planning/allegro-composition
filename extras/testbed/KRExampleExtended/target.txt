@@ -1,0 +1,16 @@
+digraph TS_2 {
+t1 -> t2 [label="prepare"][legal={*}]
+t2 -> t3 [label = "clean"][legal={*}]
+t2 -> t4 [label = "paint"][legal={*}]
+t3 -> t4 [label = "paint"][legal={*}]
+t4 -> t5 [label = "dispose"][legal={*}]
+t5 -> t6 [label = "recharge"][legal={*}]
+t6 -> t7 [label="prepare"][legal={*}]
+t7 -> t8 [label = "clean"][legal={*}]
+t7 -> t9 [label = "paint"][legal={*}]
+t8 -> t9 [label = "paint"][legal={*}]
+t9 -> t10 [label = "dispose"][legal={*}]
+t10 -> t1 [label = "recharge"][legal={*}]
+[initial = {t1}]
+[final = {t1}]
+}

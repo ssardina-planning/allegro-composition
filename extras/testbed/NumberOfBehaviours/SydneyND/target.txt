@@ -1,0 +1,12 @@
+digraph TS_2 {
+t1 -> t2 [label="search"][legal={*}]
+t2 -> t3 [label="return"][legal={*}]
+t3 -> t4 [label="report"][legal={*}]
+t4 -> t2 [label="search"][legal={*}]
+t4 -> t5 [label="diagnose"][legal={e2}]
+t5 -> t6 [label="transport"][legal={e3}]
+t5 -> t6 [label="special"][legal={e4}]
+t6 -> t1 [label="return"][legal={*}]
+[initial = {t1}]
+[final = {t1}]
+}

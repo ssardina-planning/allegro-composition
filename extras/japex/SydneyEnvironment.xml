@@ -1,0 +1,155 @@
+<testSuite name="KR Example" xmlns="http://www.sun.com/japex/testSuite">
+        <param name="libraryDir" value="lib"/>
+        <param name="japex.classPath" value="${libraryDir}"/>
+        <param name="japex.classPath" value="dist/classes"/>       
+        <param name="japex.numberOfThreads" value="1" /> 
+      
+	<param name="japex.resultUnit" value="ms"/> 
+	<param name="japex.warmupTime" value="30"/>
+	<param name="japex.reportsDirectory" value="reports/EnvironmentComplexity/Sydney"/>
+	<param name="japex.chartType" value="linechart"/>
+	<param name="japex.plotDrivers" value="true"/>
+	<param name="japex.plotGroupSize" value="10"/>
+	
+                
+        <driver name="RegressionDriver">
+            <param name="Description" value="Regression based approach"/>
+            <param name="japex.driverClass" value="japexDriver.RegressionDriver" />
+        </driver>
+        <driver name="RegressionOptimizedDriver">
+            <param name="Description" value="Optimized version of the Regression approach"/>
+            <param name="japex.driverClass" value="japexDriver.RegressionOptimizedDriver"/>
+        </driver>
+        <driver name="RegressionOptimizedDriver2">
+            <param name="Description" value="Optimized2 version of the Regression approach"/>
+            <param name="japex.driverClass" value="japexDriver.RegressionOptimizedDriver2"/>
+        </driver>
+        <driver name="ProgressionDriver">
+            <param name="Description" value="Progression based approach"/>
+            <param name="japex.driverClass" value="japexDriver.ProgressionDriver"/>
+        </driver>       
+        <testCase name="test0">
+        	<param name="inputfile" value="testbed/EnvironmentComplexity/Sydney/Sydney0.xml"/>        	
+        	<param name="japex.runTime" value="00:01:00"/> 
+        </testCase>        
+        <testCase name="test1">
+        	<param name="inputfile" value="testbed/EnvironmentComplexity/Sydney/Sydney1.xml"/>        	
+        	<param name="japex.runTime" value="00:01:00"/> 
+        </testCase>
+        <testCase name="test2">
+        	<param name="inputfile" value="testbed/EnvironmentComplexity/Sydney/Sydney2.xml"/>       
+         	<param name="japex.runTime" value="00:01:00"/> 
+         </testCase>
+     <testCase name="test3">
+        	<param name="inputfile" value="testbed/EnvironmentComplexity/Sydney/Sydney3.xml"/>        	
+        	<param name="japex.runTime" value="00:01:00"/> 
+        </testCase>
+        <testCase name="test4">
+        	<param name="inputfile" value="testbed/EnvironmentComplexity/Sydney/Sydney4.xml"/>       
+         	<param name="japex.runTime" value="00:01:00"/> 
+         </testCase>
+     <testCase name="test5">
+        	<param name="inputfile" value="testbed/EnvironmentComplexity/Sydney/Sydney5.xml"/>        	
+        	<param name="japex.runTime" value="00:01:00"/> 
+        </testCase>
+        <testCase name="test6">
+        	<param name="inputfile" value="testbed/EnvironmentComplexity/Sydney/Sydney6.xml"/>       
+         	<param name="japex.runTime" value="00:01:00"/> 
+         </testCase>
+ 		<testCase name="test7">
+        	<param name="inputfile" value="testbed/EnvironmentComplexity/Sydney/Sydney7.xml"/>        	
+        	<param name="japex.runTime" value="00:01:00"/> 
+        </testCase>
+        <testCase name="test8">
+        	<param name="inputfile" value="testbed/EnvironmentComplexity/Sydney/Sydney8.xml"/>       
+         	<param name="japex.runTime" value="00:01:00"/> 
+         </testCase>
+     	 <testCase name="test9">
+        	<param name="inputfile" value="testbed/EnvironmentComplexity/Sydney/Sydney9.xml"/>        	
+        	<param name="japex.runTime" value="00:01:00"/> 
+        </testCase>
+        <testCase name="test10">
+        	<param name="inputfile" value="testbed/EnvironmentComplexity/Sydney/Sydney10.xml"/>       
+         	<param name="japex.runTime" value="00:01:00"/> 
+         </testCase>
+      <testCase name="test11">
+        	<param name="inputfile" value="testbed/EnvironmentComplexity/Sydney/Sydney11.xml"/>        	
+        	<param name="japex.runTime" value="00:01:00"/> 
+        </testCase>
+        <testCase name="test12">
+        	<param name="inputfile" value="testbed/EnvironmentComplexity/Sydney/Sydney12.xml"/>       
+         	<param name="japex.runTime" value="00:01:00"/> 
+         </testCase>
+     <testCase name="test13">
+        	<param name="inputfile" value="testbed/EnvironmentComplexity/Sydney/Sydney13.xml"/>        	
+        	<param name="japex.runTime" value="00:01:00"/> 
+        </testCase>
+        <testCase name="test14">
+        	<param name="inputfile" value="testbed/EnvironmentComplexity/Sydney/Sydney14.xml"/>       
+         	<param name="japex.runTime" value="00:01:00"/> 
+         </testCase>
+     <testCase name="test15">
+        	<param name="inputfile" value="testbed/EnvironmentComplexity/Sydney/Sydney15.xml"/>        	
+        	<param name="japex.runTime" value="00:01:00"/> 
+        </testCase>
+        <testCase name="test16">
+        	<param name="inputfile" value="testbed/EnvironmentComplexity/Sydney/Sydney16.xml"/>       
+         	<param name="japex.runTime" value="00:01:00"/> 
+         </testCase>
+ 		<testCase name="test17">
+        	<param name="inputfile" value="testbed/EnvironmentComplexity/Sydney/Sydney17.xml"/>        	
+        	<param name="japex.runTime" value="00:01:00"/> 
+        </testCase>
+        <testCase name="test18">
+        	<param name="inputfile" value="testbed/EnvironmentComplexity/Sydney/Sydney18.xml"/>       
+         	<param name="japex.runTime" value="00:01:00"/> 
+         </testCase>
+     	 <testCase name="test19">
+        	<param name="inputfile" value="testbed/EnvironmentComplexity/Sydney/Sydney19.xml"/>        	
+        	<param name="japex.runTime" value="00:01:00"/> 
+        </testCase>
+        <testCase name="test20">
+        	<param name="inputfile" value="testbed/EnvironmentComplexity/Sydney/Sydney20.xml"/>       
+         	<param name="japex.runTime" value="00:01:00"/> 
+         </testCase>
+      <testCase name="test21">
+        	<param name="inputfile" value="testbed/EnvironmentComplexity/Sydney/Sydney21.xml"/>        	
+        	<param name="japex.runTime" value="00:01:00"/> 
+        </testCase>
+        <testCase name="test22">
+        	<param name="inputfile" value="testbed/EnvironmentComplexity/Sydney/Sydney22.xml"/>       
+         	<param name="japex.runTime" value="00:01:00"/> 
+         </testCase>
+     <testCase name="test23">
+        	<param name="inputfile" value="testbed/EnvironmentComplexity/Sydney/Sydney23.xml"/>        	
+        	<param name="japex.runTime" value="00:01:00"/> 
+        </testCase>
+        <testCase name="test24">
+        	<param name="inputfile" value="testbed/EnvironmentComplexity/Sydney/Sydney24.xml"/>       
+         	<param name="japex.runTime" value="00:01:00"/> 
+         </testCase>
+     <testCase name="test25">
+        	<param name="inputfile" value="testbed/EnvironmentComplexity/Sydney/Sydney25.xml"/>        	
+        	<param name="japex.runTime" value="00:01:00"/> 
+        </testCase>
+        <testCase name="test26">
+        	<param name="inputfile" value="testbed/EnvironmentComplexity/Sydney/Sydney26.xml"/>       
+         	<param name="japex.runTime" value="00:01:00"/> 
+         </testCase>
+ 		<testCase name="test27">
+        	<param name="inputfile" value="testbed/EnvironmentComplexity/Sydney/Sydney27.xml"/>        	
+        	<param name="japex.runTime" value="00:01:00"/> 
+        </testCase>
+        <testCase name="test28">
+        	<param name="inputfile" value="testbed/EnvironmentComplexity/Sydney/Sydney28.xml"/>       
+         	<param name="japex.runTime" value="00:01:00"/> 
+         </testCase>
+     	 <testCase name="test29">
+        	<param name="inputfile" value="testbed/EnvironmentComplexity/Sydney/Sydney29.xml"/>        	
+        	<param name="japex.runTime" value="00:01:00"/> 
+        </testCase>
+        <testCase name="test30">
+        	<param name="inputfile" value="testbed/EnvironmentComplexity/Sydney/Sydney30.xml"/>       
+         	<param name="japex.runTime" value="00:01:00"/> 
+         </testCase>
+    </testSuite>

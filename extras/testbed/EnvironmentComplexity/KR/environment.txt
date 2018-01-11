@@ -1,0 +1,16 @@
+digraph TS_1 {
+e1 -> e1 [label="recharge"]
+e1 -> e2 [label="prepare"]
+e2 -> e1 [label="dispose"]
+e2 -> e2 [label="paint"]
+e2 -> e2 [label="clean"]
+e2 -> e2 [label="recharge"]
+e2 -> e3 [label="clean"]
+e3 -> e3 [label = "paint"]
+e3 -> e3 [label = "clean"]
+e3 -> e2 [label = "recharge"]
+e3 -> e4 [label = "dispose"]
+e4 -> e3 [label = "prepare"]
+e4 -> e1 [label = "recharge"]
+[initial = {e1}]
+}

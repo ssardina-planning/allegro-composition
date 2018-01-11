@@ -1,0 +1,7 @@
+digraph TS_S {
+s1 -> s1 [label="report"][legal={*}]
+s1 -> s2 [label="search"][legal={*}]
+s2 -> s1 [label="return"][legal={*}]
+[initial = {s1}]
+[final = {s1}]
+}

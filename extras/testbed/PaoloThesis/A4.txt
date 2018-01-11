@@ -1,0 +1,17 @@
+digraph TS_4 {
+S1 -> S2 [label="a"][legal={*}]
+S1 -> S6 [label="a"][legal={*}]
+S1 -> S3 [label="a"][legal={*}]
+S1 -> S7 [label="a"][legal={*}]
+S1 -> S4 [label="b"][legal={*}]
+S2 -> S1 [label="c"][legal={*}]
+S3 -> S4 [label="b"][legal={*}]
+S4 -> S5 [label="a"][legal={*}]
+S5 -> S4 [label="b"][legal={*}]
+S6 -> S1 [label="c"][legal={*}]
+S7 -> S8 [label="a"][legal={*}]
+S7 -> S10 [label="b"][legal={*}]
+S8 -> S9 [label="b"][legal={*}]
+[initial = {S1} ]
+[final = {S1,S5,S9,S10} ]
+}

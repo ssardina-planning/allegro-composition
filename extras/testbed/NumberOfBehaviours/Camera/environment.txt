@@ -1,0 +1,9 @@
+digraph TS_1 {
+e0 -> e1 [label="send"]
+e1 -> e0 [label="freehdd"]
+e0 -> e0 [label="track"]
+e0 -> e0 [label="photo"]
+e1 -> e1 [label="track"]
+e1 -> e1 [label="photo"]
+[initial = {e0}]
+}

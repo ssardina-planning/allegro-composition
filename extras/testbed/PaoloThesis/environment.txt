@@ -1,0 +1,7 @@
+digraph TS_1 {
+e1 -> e1 [label="a"]
+e1 -> e1 [label="b"]
+e1 -> e1 [label="c"]
+e1 -> e1 [label="d"]
+[initial = {e1}]
+}

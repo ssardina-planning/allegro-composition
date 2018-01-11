@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tests>
+<test slength='10' snumber="1" nlength="10" nnumber="1" type="multichain"/>	
+</tests>

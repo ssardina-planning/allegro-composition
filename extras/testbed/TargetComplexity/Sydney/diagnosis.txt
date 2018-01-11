@@ -1,0 +1,8 @@
+digraph TS_D {
+d1 -> d1 [label="return"][legal={*}]
+d1 -> d2 [label="diagnose"][legal={e2,e3,e4}]
+d2 -> d1 [label="return"][legal={*}]
+d2 -> d1 [label="transport"][legal={e3}]
+[initial = {d1}]
+[final = {d1}]
+}

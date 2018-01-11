@@ -1,0 +1,92 @@
+<testSuite name="KR Example" xmlns="http://www.sun.com/japex/testSuite">
+        <param name="libraryDir" value="lib"/>
+        <param name="japex.classPath" value="${libraryDir}"/>
+        <param name="japex.classPath" value="dist/classes"/>       
+        <param name="japex.numberOfThreads" value="1" /> 
+      
+	<param name="japex.resultUnit" value="ms"/> 
+	<param name="japex.warmupTime" value="30"/>
+	
+        <param name="japex.warmupIterations" value="0.05"/>
+        <param name="japex.runIterations" value="3"/>
+	<param name="japex.reportsDirectory" value="reports/TargetComplexity/KR"/>
+	<param name="japex.chartType" value="linechart"/>
+	<param name="japex.plotDrivers" value="true"/>
+	<param name="japex.plotGroupSize" value="10"/>
+	                
+        <driver name="RegressionDriver">
+            <param name="Description" value="Regression based approach"/>
+            <param name="japex.driverClass" value="japexDriver.RegressionDriver" />
+        </driver>
+        <driver name="RegressionOptimizedDriver">
+            <param name="Description" value="Optimized version of the Regression approach"/>
+            <param name="japex.driverClass" value="japexDriver.RegressionOptimizedDriver"/>
+        </driver>
+        <driver name="RegressionOptimizedDriver2">
+            <param name="Description" value="Optimized2 version of the Regression approach"/>
+            <param name="japex.driverClass" value="japexDriver.RegressionOptimizedDriver2"/>
+        </driver>
+        <driver name="ProgressionDriver">
+            <param name="Description" value="Progression based approach"/>
+            <param name="japex.driverClass" value="japexDriver.ProgressionDriver"/>
+        </driver>       
+        <testCase name="test0">
+        	<param name="inputfile" value="testbed/TargetComplexity/KR/KR0.xml"/>        	
+        	<param name="japex.runTime" value="00:01:00"/> 
+        </testCase>        
+        <testCase name="test1">
+        	<param name="inputfile" value="testbed/TargetComplexity/KR/KR1.xml"/>        	
+        	<param name="japex.runTime" value="00:01:00"/> 
+        </testCase>
+        <testCase name="test2">
+        	<param name="inputfile" value="testbed/TargetComplexity/KR/KR2.xml"/>       
+         	<param name="japex.runTime" value="00:01:00"/> 
+         </testCase>
+     <testCase name="test3">
+        	<param name="inputfile" value="testbed/TargetComplexity/KR/KR3.xml"/>        	
+        	<param name="japex.runTime" value="00:01:00"/> 
+        </testCase>
+        <testCase name="test4">
+        	<param name="inputfile" value="testbed/TargetComplexity/KR/KR4.xml"/>       
+         	<param name="japex.runTime" value="00:01:00"/> 
+         </testCase>
+     <testCase name="test5">
+        	<param name="inputfile" value="testbed/TargetComplexity/KR/KR5.xml"/>        	
+        	<param name="japex.runTime" value="00:01:00"/> 
+        </testCase>
+        <testCase name="test6">
+        	<param name="inputfile" value="testbed/TargetComplexity/KR/KR6.xml"/>       
+         	<param name="japex.runTime" value="00:01:00"/> 
+         </testCase>
+ 		<testCase name="test7">
+        	<param name="inputfile" value="testbed/TargetComplexity/KR/KR7.xml"/>        	
+        	<param name="japex.runTime" value="00:02:00"/> 
+        </testCase>
+        <testCase name="test8">
+        	<param name="inputfile" value="testbed/TargetComplexity/KR/KR8.xml"/>       
+         	<param name="japex.runTime" value="00:02:00"/> 
+         </testCase>
+     	 <testCase name="test9">
+        	<param name="inputfile" value="testbed/TargetComplexity/KR/KR9.xml"/>        	
+        	<param name="japex.runTime" value="00:02:00"/> 
+        </testCase>
+        <testCase name="test10">
+        	<param name="inputfile" value="testbed/TargetComplexity/KR/KR10.xml"/>       
+         	<param name="japex.runTime" value="00:03:00"/> 
+         </testCase>
+   
+        <testCase name="test11">
+        	<param name="inputfile" value="testbed/TargetComplexity/KR/KR11.xml"/>        	
+        	<param name="japex.runTime" value="00:03:00"/> 
+        </testCase>
+        <testCase name="test12">
+        	<param name="inputfile" value="testbed/TargetComplexity/KR/KR12.xml"/>       
+         	<param name="japex.runTime" value="00:03:00"/> 
+         </testCase>
+     <testCase name="test13">
+        	<param name="inputfile" value="testbed/TargetComplexity/KR/KR13.xml"/>        	
+        	<param name="japex.runTime" value="00:03:00"/> 
+        </testCase> 
+
+      
+   </testSuite>

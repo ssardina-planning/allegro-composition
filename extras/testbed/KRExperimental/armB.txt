@@ -1,0 +1,12 @@
+digraph TS_B {
+b1 -> b2[label ="prepare"][legal={*}]
+b2 -> b3[label = "paint"][legal={*}]
+b2 -> b1[label = "paint"][legal={*}]
+b2 -> b1[label = "clean"][legal={*}]
+b3 -> b1[label = "recharge"][legal={*}]
+b3 -> b4[label = "prepare"][legal={*}]
+b4 -> b3[label = "clean"][legal={*}]
+b2 -> b8[label="paint"][legal={*}]
+[initial = {b1}]
+[final = {b1}]
+}

@@ -1,0 +1,9 @@
+digraph TS_A {
+a1 -> a1[label ="dispose"][legal={*}]
+a1 -> a1[label ="recharge"][legal={*}]
+a1 -> a2 [label="clean"][legal={e1,e2}]
+a2 -> a2 [label = "recharge"][legal={*}]
+a2 -> a1 [label = "dispose"][legal={*}]
+[initial = {a1}]
+[final = {a1}]
+}

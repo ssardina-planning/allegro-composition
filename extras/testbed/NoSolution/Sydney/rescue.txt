@@ -1,0 +1,6 @@
+digraph TS_R {
+r1 -> r1 [label="transport"][legal={*}]
+r1 -> r1 [label="special"][legal={e4}]
+[initial = {r1}]
+[final = {r1}]
+}

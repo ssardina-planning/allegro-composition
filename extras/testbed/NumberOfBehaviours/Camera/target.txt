@@ -1,0 +1,17 @@
+digraph TS_2 {
+t0 -> t1 [label="track"][legal={*}]
+t1 -> t11[label="track"][legal={*}]
+t11 -> t2[label="photo"][legal={*}]
+t1 -> t12[label="photo"][legal={*}]
+t12 -> t2[label="track"][legal={*}]
+t2 -> t21[label="track"][legal={*}]
+t21 -> t3[label="freehdd"][legal={*}]
+t2 -> t22[label="freehdd"][legal={*}]
+t22 -> t3[label="track"][legal={*}]
+t3 -> t31[label="track"][legal={*}]
+t31 -> t1[label="send"][legal={*}]
+t3 -> t32[label="send"][legal={*}]
+t32 -> t1[label="track"][legal={*}]
+[initial = {t0}]
+[final = {t0,t1}]
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+    <HEAD>
+        <META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
+        <TITLE>Japex Micro-benchmark Framework</TITLE>
+        <link rel="stylesheet" href="javanet.css"/>
+        <META NAME="GENERATOR" CONTENT="NeoOffice/J 1.1  (Unix)">
+        <META NAME="CREATED" CONTENT="20051209;13525700">
+        <META NAME="CHANGED" CONTENT="20051221;10380700">
+    </HEAD>
+    <BODY LANG="en-US" DIR="LTR">
+        <!-- Hide old summary/categories/license/owner table -->
+        <SCRIPT>document.getElementById("projecthome").getElementsByTagName("table").item(0).style.display="none";</SCRIPT>
+        <H1>Japex Micro-benchmark Framework</H1>
+        <p/><p/>
+        <H3><A NAME="Introduction"></A>Introduction</H3>
+        <P>Profiling is an art, an art that it is very hard to master.
+                Writing micro-benchmarks is one of the many tools available to
+                programmers today. Micro-benchmarks are simple benchmarks that rarely
+                involve complicated deployments and are often used to test specific
+                parts of an application. They are also characterized by the use of
+                <I>wall-clock</I> blocks: start a clock, run the code, stop the clock
+        and report the result.</P>
+        <P>The lack of common tools for writing micro-benchmarks makes
+                comparing results published by different people impractical.
+                Questions such as &quot;When did you start/stop the clock?&quot; or
+                &quot;What exactly did you include in the wall-clock block?&quot; or
+        &quot;Are you reporting latency or throughput?&quot; often arise.</P>
+        <P>Japex is a simple yet powerful tool to write Java-based
+                micro-benchmarks. It started as a simple project 
+                primarily aimed at testing XML and <A HREF="http://fi.java.net/">Fast
+                Infoset</A> performance, but has evolved into a rather sophisticated
+                framework with support for XML and HTML output as well as various
+                types of charts for displaying the results. It is similar in spirit
+                to <A HREF="http://www.junit.org/">JUnit</A> in that if factors out
+                most of the repetitive programming logic that is necessary to write
+                micro-benchmarks. This logic includes loading and initializing
+                multiple drivers, warming up the VM, forking multiple threads, timing the inner loop, etc. One
+                of the key design goals for Japex was extensibility. Via the use of a
+                simple model of input and output parameters, it is possible to write
+        micro-benchmarks to test practically anything.</P>
+        <H3><A NAME="Overview"></A>Overview</H3>
+        <P> Japex micro-benchmark comprises a set of Japex Drivers (i.e.,
+                Java classes extending <tt>com.sun.japex.JapexDriverBase</tt>)
+                and at least one configuration file to describe the drivers under
+                test, the list of test cases and the various parameters used to
+                control the length of the test, the type of output report, etc. You
+                can click on the image below to see an example of each input and
+        output file.</P>
+        <CENTER>
+            <TABLE WIDTH=75% BORDER=0 CELLPADDING=0 CELLSPACING=0>
+                <COL WIDTH=56*>
+                <COL WIDTH=156*>
+                <COL WIDTH=44*>
+                <TR VALIGN=TOP>
+                    <TD WIDTH=22% HEIGHT=18>
+                        <P ALIGN=CENTER><BR>
+                        </P>
+                    </TD>
+                    <TD WIDTH=61%>
+                        <P ALIGN=CENTER><B>Running Japex</B></P>
+                    </TD>
+                    <TD WIDTH=17%>
+                        <P ALIGN=CENTER><BR>
+                        </P>
+                    </TD>
+                </TR>
+                <TR VALIGN=TOP>
+                    <TD WIDTH=22%>
+                        <P ALIGN=CENTER><BR>
+                        </P>
+                    </TD>
+                    <TD WIDTH=61%>
+                        <P ALIGN=CENTER><MAP NAME="MAP1"><AREA SHAPE=RECT COORDS="172,84,277,171" HREF="http://japex.java.net/" TARGET="_self" ALT="Japex"><AREA SHAPE=RECT COORDS="354,135,460,245" HREF="http://japex.java.net/sample/report.html" TARGET="_self" ALT="HTML Report"><AREA SHAPE=RECT COORDS="354,0,460,107" HREF="http://japex.java.net/sample/report.xml" TARGET="_self" ALT="XML Report"><AREA SHAPE=RECT COORDS="0,74,104,184" HREF="http://japex.java.net/sample/config.xml" TARGET="_self" ALT="Config File"></MAP><IMG SRC="images/japexio.jpg" NAME="Graphic5" ALIGN=LEFT WIDTH=460 HEIGHT=245 BORDER=0 USEMAP="#MAP1"><BR CLEAR=LEFT><BR>
+                        </P>
+                    </TD>
+                    <TD WIDTH=17%>
+                        <P ALIGN=CENTER><BR>
+                        </P>
+                    </TD>
+                </TR>
+            </TABLE>
+        </CENTER>
+        <P>The type of output chart that is generated as part of the HTML
+                report depends on the type of benchmark and the value of
+                <FONT SIZE=2>japex.chartType</FONT>
+                parameter. Click on the images below for an example of the types of
+        charts that are currently supported by Japex.</P>
+        <CENTER>
+            <TABLE WIDTH=636 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+                <COL WIDTH=212>
+                <COL WIDTH=212>
+                <COL WIDTH=211>
+                <TR>
+                    <TD COLSPAN=3 WIDTH=636 HEIGHT=20 VALIGN=TOP>
+                        <P ALIGN=CENTER><B>Chart Types Supported by Japex</B></P>
+                    </TD>
+                </TR>
+                <TR VALIGN=TOP>
+                    <TD WIDTH=212>
+                        <P ALIGN=CENTER><A HREF="images/bar.jpg"><IMG SRC="images/bar.jpg" NAME="Graphic2" ALIGN=LEFT WIDTH=198 HEIGHT=148 BORDER=0><BR CLEAR=LEFT></A><BR>
+                        </P>
+                    </TD>
+                    <TD WIDTH=212>
+                        <P ALIGN=CENTER><A HREF="images/line.jpg"><IMG SRC="images/line.jpg" NAME="Graphic3" ALIGN=LEFT WIDTH=198 HEIGHT=148 BORDER=0><BR CLEAR=LEFT></A><BR>
+                        </P>
+                    </TD>
+                    <TD WIDTH=211>
+                        <P ALIGN=CENTER><A HREF="images/scatter.jpg"><IMG SRC="images/scatter.jpg" NAME="Graphic4" ALIGN=LEFT WIDTH=198 HEIGHT=148 BORDER=0><BR CLEAR=LEFT></A><BR>
+                        </P>
+                    </TD>
+                </TR>
+            </TABLE>
+        </CENTER>
+	<h2>Documentation</h2>
+	    <p>Please refer to the <a href="docs/manual.html">Japex manual</a>.
+            As of version 1.2, Japex includes a Maven2 plugin to
+	    run microbenchmarks from a maven build. For more
+	    information, see <a href="japex-maven-plugin/index.html">the documentation</a>.
+	    </p>
+        <H2><A NAME="Terms"></A>Terms and Conditions</H2>
+        <P>The Japex code is made available under the terms of the Apache
+                Source License, version 2.0 (<A HREF="http://www.apache.org/licenses/LICENSE-2.0">ASL
+                2.0</A>). ASL is a widely accepted and very flexible license; version
+                2.0 adds explicit terms to cover the conditions for accepting
+                contributions, reflecting experience gathered with the previous
+                versions of the ASL. There is a single copyright owner, Oracle;
+                multiple copyright owners can lead to very complicated legal situations.</P>
+        <P>This project is governed by
+        the same rules defined by Glassfish. For more information, please refer to the 
+        <a href="http://glassfish.java.net/public/GovernancePolicy.html">Glassfish
+        Project Governance Policy</a> page.</P>
+    </BODY>
+</HTML>

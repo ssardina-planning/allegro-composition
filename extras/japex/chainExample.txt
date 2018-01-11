@@ -1,0 +1,3086 @@
+Fri Sep 18 22:03:44 EST 2009
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 10
+Number of Behaviours: 1
+Number of States in Behaviour 1: 10
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:6
+Times links checked0:224
+Regression Links: 100
+Simulation Links: 1
+System States: 10
+Target States: 10
+Regression time: 21
+------Regression Optimised----------
+Times links checked:156
+Simulation Links:1
+RegressionOptimized Links: 73
+Regression Optimized time: 24
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:129
+Simulation Links2:1
+RegressionOptimized2 Links: 73
+Regression Optimized2 time: 20
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 10
+Number of Behaviours: 1
+Number of States in Behaviour 1: 10
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:6
+Times links checked0:224
+Regression Links: 100
+Simulation Links: 1
+System States: 10
+Target States: 10
+Regression time: 8
+------Regression Optimised----------
+Times links checked:156
+Simulation Links:1
+RegressionOptimized Links: 73
+Regression Optimized time: 8
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:129
+Simulation Links2:1
+RegressionOptimized2 Links: 73
+Regression Optimized2 time: 6
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 20
+Number of Behaviours: 1
+Number of States in Behaviour 1: 20
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:11
+Times links checked0:1496
+Regression Links: 400
+Simulation Links: 1
+System States: 20
+Target States: 20
+Regression time: 68
+------Regression Optimised----------
+Times links checked:1469
+Simulation Links:1
+RegressionOptimized Links: 343
+Regression Optimized time: 69
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:649
+Simulation Links2:1
+RegressionOptimized2 Links: 343
+Regression Optimized2 time: 45
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 10
+Number of Behaviours: 1
+Number of States in Behaviour 1: 10
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:6
+Times links checked0:224
+Regression Links: 100
+Simulation Links: 1
+System States: 10
+Target States: 10
+Regression time: 13
+------Regression Optimised----------
+Times links checked:156
+Simulation Links:1
+RegressionOptimized Links: 73
+Regression Optimized time: 2
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:129
+Simulation Links2:1
+RegressionOptimized2 Links: 73
+Regression Optimized2 time: 14
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 20
+Number of Behaviours: 1
+Number of States in Behaviour 1: 20
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:11
+Times links checked0:1496
+Regression Links: 400
+Simulation Links: 1
+System States: 20
+Target States: 20
+Regression time: 34
+------Regression Optimised----------
+Times links checked:1469
+Simulation Links:1
+RegressionOptimized Links: 343
+Regression Optimized time: 28
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:649
+Simulation Links2:1
+RegressionOptimized2 Links: 343
+Regression Optimized2 time: 27
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 30
+Number of Behaviours: 1
+Number of States in Behaviour 1: 30
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:17
+Times links checked0:5564
+Regression Links: 900
+Simulation Links: 1
+System States: 30
+Target States: 30
+Regression time: 125
+------Regression Optimised----------
+Times links checked:5036
+Simulation Links:1
+RegressionOptimized Links: 813
+Regression Optimized time: 21
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:1569
+Simulation Links2:1
+RegressionOptimized2 Links: 813
+Regression Optimized2 time: 46
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 10
+Number of Behaviours: 1
+Number of States in Behaviour 1: 10
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:6
+Times links checked0:224
+Regression Links: 100
+Simulation Links: 1
+System States: 10
+Target States: 10
+Regression time: 2
+------Regression Optimised----------
+Times links checked:156
+Simulation Links:1
+RegressionOptimized Links: 73
+Regression Optimized time: 1
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:129
+Simulation Links2:1
+RegressionOptimized2 Links: 73
+Regression Optimized2 time: 2
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 20
+Number of Behaviours: 1
+Number of States in Behaviour 1: 20
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:11
+Times links checked0:1496
+Regression Links: 400
+Simulation Links: 1
+System States: 20
+Target States: 20
+Regression time: 6
+------Regression Optimised----------
+Times links checked:1469
+Simulation Links:1
+RegressionOptimized Links: 343
+Regression Optimized time: 8
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:649
+Simulation Links2:1
+RegressionOptimized2 Links: 343
+Regression Optimized2 time: 21
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 30
+Number of Behaviours: 1
+Number of States in Behaviour 1: 30
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:17
+Times links checked0:5564
+Regression Links: 900
+Simulation Links: 1
+System States: 30
+Target States: 30
+Regression time: 38
+------Regression Optimised----------
+Times links checked:5036
+Simulation Links:1
+RegressionOptimized Links: 813
+Regression Optimized time: 34
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:1569
+Simulation Links2:1
+RegressionOptimized2 Links: 813
+Regression Optimized2 time: 36
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 40
+Number of Behaviours: 1
+Number of States in Behaviour 1: 40
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:20
+Times links checked0:11422
+Regression Links: 1600
+Simulation Links: 1
+System States: 40
+Target States: 40
+Regression time: 54
+------Regression Optimised----------
+Times links checked:12111
+Simulation Links:1
+RegressionOptimized Links: 1483
+Regression Optimized time: 41
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:2889
+Simulation Links2:1
+RegressionOptimized2 Links: 1483
+Regression Optimized2 time: 38
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 10
+Number of Behaviours: 1
+Number of States in Behaviour 1: 10
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:6
+Times links checked0:224
+Regression Links: 100
+Simulation Links: 1
+System States: 10
+Target States: 10
+Regression time: 2
+------Regression Optimised----------
+Times links checked:156
+Simulation Links:1
+RegressionOptimized Links: 73
+Regression Optimized time: 2
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:129
+Simulation Links2:1
+RegressionOptimized2 Links: 73
+Regression Optimized2 time: 2
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 20
+Number of Behaviours: 1
+Number of States in Behaviour 1: 20
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:11
+Times links checked0:1496
+Regression Links: 400
+Simulation Links: 1
+System States: 20
+Target States: 20
+Regression time: 6
+------Regression Optimised----------
+Times links checked:1469
+Simulation Links:1
+RegressionOptimized Links: 343
+Regression Optimized time: 5
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:649
+Simulation Links2:1
+RegressionOptimized2 Links: 343
+Regression Optimized2 time: 8
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 30
+Number of Behaviours: 1
+Number of States in Behaviour 1: 30
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:17
+Times links checked0:5564
+Regression Links: 900
+Simulation Links: 1
+System States: 30
+Target States: 30
+Regression time: 30
+------Regression Optimised----------
+Times links checked:5036
+Simulation Links:1
+RegressionOptimized Links: 813
+Regression Optimized time: 22
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:1569
+Simulation Links2:1
+RegressionOptimized2 Links: 813
+Regression Optimized2 time: 20
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 40
+Number of Behaviours: 1
+Number of States in Behaviour 1: 40
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:20
+Times links checked0:11422
+Regression Links: 1600
+Simulation Links: 1
+System States: 40
+Target States: 40
+Regression time: 48
+------Regression Optimised----------
+Times links checked:12111
+Simulation Links:1
+RegressionOptimized Links: 1483
+Regression Optimized time: 73
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:2889
+Simulation Links2:1
+RegressionOptimized2 Links: 1483
+Regression Optimized2 time: 86
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 50
+Number of Behaviours: 1
+Number of States in Behaviour 1: 50
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:23
+Times links checked0:19864
+Regression Links: 2500
+Simulation Links: 1
+System States: 50
+Target States: 50
+Regression time: 160
+------Regression Optimised----------
+Times links checked:19175
+Simulation Links:1
+RegressionOptimized Links: 2353
+Regression Optimized time: 115
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:4609
+Simulation Links2:1
+RegressionOptimized2 Links: 2353
+Regression Optimized2 time: 77
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 10
+Number of Behaviours: 1
+Number of States in Behaviour 1: 10
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:6
+Times links checked0:224
+Regression Links: 100
+Simulation Links: 1
+System States: 10
+Target States: 10
+Regression time: 1
+------Regression Optimised----------
+Times links checked:156
+Simulation Links:1
+RegressionOptimized Links: 73
+Regression Optimized time: 1
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:129
+Simulation Links2:1
+RegressionOptimized2 Links: 73
+Regression Optimized2 time: 2
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 20
+Number of Behaviours: 1
+Number of States in Behaviour 1: 20
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:11
+Times links checked0:1496
+Regression Links: 400
+Simulation Links: 1
+System States: 20
+Target States: 20
+Regression time: 5
+------Regression Optimised----------
+Times links checked:1469
+Simulation Links:1
+RegressionOptimized Links: 343
+Regression Optimized time: 5
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:649
+Simulation Links2:1
+RegressionOptimized2 Links: 343
+Regression Optimized2 time: 9
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 30
+Number of Behaviours: 1
+Number of States in Behaviour 1: 30
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:17
+Times links checked0:5564
+Regression Links: 900
+Simulation Links: 1
+System States: 30
+Target States: 30
+Regression time: 16
+------Regression Optimised----------
+Times links checked:5036
+Simulation Links:1
+RegressionOptimized Links: 813
+Regression Optimized time: 17
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:1569
+Simulation Links2:1
+RegressionOptimized2 Links: 813
+Regression Optimized2 time: 21
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 40
+Number of Behaviours: 1
+Number of States in Behaviour 1: 40
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:20
+Times links checked0:11422
+Regression Links: 1600
+Simulation Links: 1
+System States: 40
+Target States: 40
+Regression time: 37
+------Regression Optimised----------
+Times links checked:12111
+Simulation Links:1
+RegressionOptimized Links: 1483
+Regression Optimized time: 58
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:2889
+Simulation Links2:1
+RegressionOptimized2 Links: 1483
+Regression Optimized2 time: 105
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 50
+Number of Behaviours: 1
+Number of States in Behaviour 1: 50
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:23
+Times links checked0:19864
+Regression Links: 2500
+Simulation Links: 1
+System States: 50
+Target States: 50
+Regression time: 139
+------Regression Optimised----------
+Times links checked:19175
+Simulation Links:1
+RegressionOptimized Links: 2353
+Regression Optimized time: 50
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:4609
+Simulation Links2:1
+RegressionOptimized2 Links: 2353
+Regression Optimized2 time: 34
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 60
+Number of Behaviours: 1
+Number of States in Behaviour 1: 60
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:28
+Times links checked0:30981
+Regression Links: 3600
+Simulation Links: 1
+System States: 60
+Target States: 60
+Regression time: 95
+------Regression Optimised----------
+Times links checked:29875
+Simulation Links:1
+RegressionOptimized Links: 3423
+Regression Optimized time: 78
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:6729
+Simulation Links2:1
+RegressionOptimized2 Links: 3423
+Regression Optimized2 time: 54
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 10
+Number of Behaviours: 1
+Number of States in Behaviour 1: 10
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:6
+Times links checked0:224
+Regression Links: 100
+Simulation Links: 1
+System States: 10
+Target States: 10
+Regression time: 1
+------Regression Optimised----------
+Times links checked:156
+Simulation Links:1
+RegressionOptimized Links: 73
+Regression Optimized time: 1
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:129
+Simulation Links2:1
+RegressionOptimized2 Links: 73
+Regression Optimized2 time: 1
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 20
+Number of Behaviours: 1
+Number of States in Behaviour 1: 20
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:11
+Times links checked0:1496
+Regression Links: 400
+Simulation Links: 1
+System States: 20
+Target States: 20
+Regression time: 6
+------Regression Optimised----------
+Times links checked:1469
+Simulation Links:1
+RegressionOptimized Links: 343
+Regression Optimized time: 3
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:649
+Simulation Links2:1
+RegressionOptimized2 Links: 343
+Regression Optimized2 time: 4
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 30
+Number of Behaviours: 1
+Number of States in Behaviour 1: 30
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:17
+Times links checked0:5564
+Regression Links: 900
+Simulation Links: 1
+System States: 30
+Target States: 30
+Regression time: 16
+------Regression Optimised----------
+Times links checked:5036
+Simulation Links:1
+RegressionOptimized Links: 813
+Regression Optimized time: 12
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:1569
+Simulation Links2:1
+RegressionOptimized2 Links: 813
+Regression Optimized2 time: 12
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 40
+Number of Behaviours: 1
+Number of States in Behaviour 1: 40
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:20
+Times links checked0:11422
+Regression Links: 1600
+Simulation Links: 1
+System States: 40
+Target States: 40
+Regression time: 33
+------Regression Optimised----------
+Times links checked:12111
+Simulation Links:1
+RegressionOptimized Links: 1483
+Regression Optimized time: 34
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:2889
+Simulation Links2:1
+RegressionOptimized2 Links: 1483
+Regression Optimized2 time: 21
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 50
+Number of Behaviours: 1
+Number of States in Behaviour 1: 50
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:23
+Times links checked0:19864
+Regression Links: 2500
+Simulation Links: 1
+System States: 50
+Target States: 50
+Regression time: 63
+------Regression Optimised----------
+Times links checked:19175
+Simulation Links:1
+RegressionOptimized Links: 2353
+Regression Optimized time: 58
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:4609
+Simulation Links2:1
+RegressionOptimized2 Links: 2353
+Regression Optimized2 time: 40
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 60
+Number of Behaviours: 1
+Number of States in Behaviour 1: 60
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:28
+Times links checked0:30981
+Regression Links: 3600
+Simulation Links: 1
+System States: 60
+Target States: 60
+Regression time: 146
+------Regression Optimised----------
+Times links checked:29875
+Simulation Links:1
+RegressionOptimized Links: 3423
+Regression Optimized time: 107
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:6729
+Simulation Links2:1
+RegressionOptimized2 Links: 3423
+Regression Optimized2 time: 62
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 70
+Number of Behaviours: 1
+Number of States in Behaviour 1: 70
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:34
+Times links checked0:52270
+Regression Links: 4900
+Simulation Links: 1
+System States: 70
+Target States: 70
+Regression time: 206
+------Regression Optimised----------
+Times links checked:49338
+Simulation Links:1
+RegressionOptimized Links: 4693
+Regression Optimized time: 174
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:9249
+Simulation Links2:1
+RegressionOptimized2 Links: 4693
+Regression Optimized2 time: 80
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 10
+Number of Behaviours: 1
+Number of States in Behaviour 1: 10
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:6
+Times links checked0:224
+Regression Links: 100
+Simulation Links: 1
+System States: 10
+Target States: 10
+Regression time: 10
+------Regression Optimised----------
+Times links checked:156
+Simulation Links:1
+RegressionOptimized Links: 73
+Regression Optimized time: 0
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:129
+Simulation Links2:1
+RegressionOptimized2 Links: 73
+Regression Optimized2 time: 1
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 20
+Number of Behaviours: 1
+Number of States in Behaviour 1: 20
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:11
+Times links checked0:1496
+Regression Links: 400
+Simulation Links: 1
+System States: 20
+Target States: 20
+Regression time: 43
+------Regression Optimised----------
+Times links checked:1469
+Simulation Links:1
+RegressionOptimized Links: 343
+Regression Optimized time: 4
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:649
+Simulation Links2:1
+RegressionOptimized2 Links: 343
+Regression Optimized2 time: 4
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 30
+Number of Behaviours: 1
+Number of States in Behaviour 1: 30
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:17
+Times links checked0:5564
+Regression Links: 900
+Simulation Links: 1
+System States: 30
+Target States: 30
+Regression time: 29
+------Regression Optimised----------
+Times links checked:5036
+Simulation Links:1
+RegressionOptimized Links: 813
+Regression Optimized time: 11
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:1569
+Simulation Links2:1
+RegressionOptimized2 Links: 813
+Regression Optimized2 time: 10
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 40
+Number of Behaviours: 1
+Number of States in Behaviour 1: 40
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:20
+Times links checked0:11422
+Regression Links: 1600
+Simulation Links: 1
+System States: 40
+Target States: 40
+Regression time: 31
+------Regression Optimised----------
+Times links checked:12111
+Simulation Links:1
+RegressionOptimized Links: 1483
+Regression Optimized time: 32
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:2889
+Simulation Links2:1
+RegressionOptimized2 Links: 1483
+Regression Optimized2 time: 19
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 50
+Number of Behaviours: 1
+Number of States in Behaviour 1: 50
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:23
+Times links checked0:19864
+Regression Links: 2500
+Simulation Links: 1
+System States: 50
+Target States: 50
+Regression time: 62
+------Regression Optimised----------
+Times links checked:19175
+Simulation Links:1
+RegressionOptimized Links: 2353
+Regression Optimized time: 107
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:4609
+Simulation Links2:1
+RegressionOptimized2 Links: 2353
+Regression Optimized2 time: 38
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 60
+Number of Behaviours: 1
+Number of States in Behaviour 1: 60
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:28
+Times links checked0:30981
+Regression Links: 3600
+Simulation Links: 1
+System States: 60
+Target States: 60
+Regression time: 140
+------Regression Optimised----------
+Times links checked:29875
+Simulation Links:1
+RegressionOptimized Links: 3423
+Regression Optimized time: 192
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:6729
+Simulation Links2:1
+RegressionOptimized2 Links: 3423
+Regression Optimized2 time: 66
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 70
+Number of Behaviours: 1
+Number of States in Behaviour 1: 70
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:34
+Times links checked0:52270
+Regression Links: 4900
+Simulation Links: 1
+System States: 70
+Target States: 70
+Regression time: 200
+------Regression Optimised----------
+Times links checked:49338
+Simulation Links:1
+RegressionOptimized Links: 4693
+Regression Optimized time: 169
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:9249
+Simulation Links2:1
+RegressionOptimized2 Links: 4693
+Regression Optimized2 time: 80
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 80
+Number of Behaviours: 1
+Number of States in Behaviour 1: 80
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:44
+Times links checked0:93693
+Regression Links: 6400
+Simulation Links: 1
+System States: 80
+Target States: 80
+Regression time: 469
+------Regression Optimised----------
+Times links checked:88922
+Simulation Links:1
+RegressionOptimized Links: 6163
+Regression Optimized time: 339
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:12169
+Simulation Links2:1
+RegressionOptimized2 Links: 6163
+Regression Optimized2 time: 121
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 10
+Number of Behaviours: 1
+Number of States in Behaviour 1: 10
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:6
+Times links checked0:224
+Regression Links: 100
+Simulation Links: 1
+System States: 10
+Target States: 10
+Regression time: 1
+------Regression Optimised----------
+Times links checked:156
+Simulation Links:1
+RegressionOptimized Links: 73
+Regression Optimized time: 0
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:129
+Simulation Links2:1
+RegressionOptimized2 Links: 73
+Regression Optimized2 time: 2
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 20
+Number of Behaviours: 1
+Number of States in Behaviour 1: 20
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:11
+Times links checked0:1496
+Regression Links: 400
+Simulation Links: 1
+System States: 20
+Target States: 20
+Regression time: 4
+------Regression Optimised----------
+Times links checked:1469
+Simulation Links:1
+RegressionOptimized Links: 343
+Regression Optimized time: 3
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:649
+Simulation Links2:1
+RegressionOptimized2 Links: 343
+Regression Optimized2 time: 4
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 30
+Number of Behaviours: 1
+Number of States in Behaviour 1: 30
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:17
+Times links checked0:5564
+Regression Links: 900
+Simulation Links: 1
+System States: 30
+Target States: 30
+Regression time: 14
+------Regression Optimised----------
+Times links checked:5036
+Simulation Links:1
+RegressionOptimized Links: 813
+Regression Optimized time: 11
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:1569
+Simulation Links2:1
+RegressionOptimized2 Links: 813
+Regression Optimized2 time: 10
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 40
+Number of Behaviours: 1
+Number of States in Behaviour 1: 40
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:20
+Times links checked0:11422
+Regression Links: 1600
+Simulation Links: 1
+System States: 40
+Target States: 40
+Regression time: 33
+------Regression Optimised----------
+Times links checked:12111
+Simulation Links:1
+RegressionOptimized Links: 1483
+Regression Optimized time: 29
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:2889
+Simulation Links2:1
+RegressionOptimized2 Links: 1483
+Regression Optimized2 time: 19
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 50
+Number of Behaviours: 1
+Number of States in Behaviour 1: 50
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:23
+Times links checked0:19864
+Regression Links: 2500
+Simulation Links: 1
+System States: 50
+Target States: 50
+Regression time: 53
+------Regression Optimised----------
+Times links checked:19175
+Simulation Links:1
+RegressionOptimized Links: 2353
+Regression Optimized time: 52
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:4609
+Simulation Links2:1
+RegressionOptimized2 Links: 2353
+Regression Optimized2 time: 32
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 60
+Number of Behaviours: 1
+Number of States in Behaviour 1: 60
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:28
+Times links checked0:30981
+Regression Links: 3600
+Simulation Links: 1
+System States: 60
+Target States: 60
+Regression time: 102
+------Regression Optimised----------
+Times links checked:29875
+Simulation Links:1
+RegressionOptimized Links: 3423
+Regression Optimized time: 198
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:6729
+Simulation Links2:1
+RegressionOptimized2 Links: 3423
+Regression Optimized2 time: 195
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 70
+Number of Behaviours: 1
+Number of States in Behaviour 1: 70
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:34
+Times links checked0:52270
+Regression Links: 4900
+Simulation Links: 1
+System States: 70
+Target States: 70
+Regression time: 434
+------Regression Optimised----------
+Times links checked:49338
+Simulation Links:1
+RegressionOptimized Links: 4693
+Regression Optimized time: 177
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:9249
+Simulation Links2:1
+RegressionOptimized2 Links: 4693
+Regression Optimized2 time: 101
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 80
+Number of Behaviours: 1
+Number of States in Behaviour 1: 80
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:44
+Times links checked0:93693
+Regression Links: 6400
+Simulation Links: 1
+System States: 80
+Target States: 80
+Regression time: 379
+------Regression Optimised----------
+Times links checked:88922
+Simulation Links:1
+RegressionOptimized Links: 6163
+Regression Optimized time: 325
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:12169
+Simulation Links2:1
+RegressionOptimized2 Links: 6163
+Regression Optimized2 time: 132
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 90
+Number of Behaviours: 1
+Number of States in Behaviour 1: 90
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:47
+Times links checked0:129358
+Regression Links: 8100
+Simulation Links: 1
+System States: 90
+Target States: 90
+Regression time: 595
+------Regression Optimised----------
+Times links checked:126087
+Simulation Links:1
+RegressionOptimized Links: 7833
+Regression Optimized time: 551
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:15489
+Simulation Links2:1
+RegressionOptimized2 Links: 7833
+Regression Optimized2 time: 171
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 10
+Number of Behaviours: 1
+Number of States in Behaviour 1: 10
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:6
+Times links checked0:224
+Regression Links: 100
+Simulation Links: 1
+System States: 10
+Target States: 10
+Regression time: 0
+------Regression Optimised----------
+Times links checked:156
+Simulation Links:1
+RegressionOptimized Links: 73
+Regression Optimized time: 0
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:129
+Simulation Links2:1
+RegressionOptimized2 Links: 73
+Regression Optimized2 time: 1
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 20
+Number of Behaviours: 1
+Number of States in Behaviour 1: 20
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:11
+Times links checked0:1496
+Regression Links: 400
+Simulation Links: 1
+System States: 20
+Target States: 20
+Regression time: 3
+------Regression Optimised----------
+Times links checked:1469
+Simulation Links:1
+RegressionOptimized Links: 343
+Regression Optimized time: 3
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:649
+Simulation Links2:1
+RegressionOptimized2 Links: 343
+Regression Optimized2 time: 4
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 30
+Number of Behaviours: 1
+Number of States in Behaviour 1: 30
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:17
+Times links checked0:5564
+Regression Links: 900
+Simulation Links: 1
+System States: 30
+Target States: 30
+Regression time: 14
+------Regression Optimised----------
+Times links checked:5036
+Simulation Links:1
+RegressionOptimized Links: 813
+Regression Optimized time: 23
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:1569
+Simulation Links2:1
+RegressionOptimized2 Links: 813
+Regression Optimized2 time: 10
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 40
+Number of Behaviours: 1
+Number of States in Behaviour 1: 40
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:20
+Times links checked0:11422
+Regression Links: 1600
+Simulation Links: 1
+System States: 40
+Target States: 40
+Regression time: 30
+------Regression Optimised----------
+Times links checked:12111
+Simulation Links:1
+RegressionOptimized Links: 1483
+Regression Optimized time: 28
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:2889
+Simulation Links2:1
+RegressionOptimized2 Links: 1483
+Regression Optimized2 time: 18
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 50
+Number of Behaviours: 1
+Number of States in Behaviour 1: 50
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:23
+Times links checked0:19864
+Regression Links: 2500
+Simulation Links: 1
+System States: 50
+Target States: 50
+Regression time: 63
+------Regression Optimised----------
+Times links checked:19175
+Simulation Links:1
+RegressionOptimized Links: 2353
+Regression Optimized time: 47
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:4609
+Simulation Links2:1
+RegressionOptimized2 Links: 2353
+Regression Optimized2 time: 33
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 60
+Number of Behaviours: 1
+Number of States in Behaviour 1: 60
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:28
+Times links checked0:30981
+Regression Links: 3600
+Simulation Links: 1
+System States: 60
+Target States: 60
+Regression time: 102
+------Regression Optimised----------
+Times links checked:29875
+Simulation Links:1
+RegressionOptimized Links: 3423
+Regression Optimized time: 121
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:6729
+Simulation Links2:1
+RegressionOptimized2 Links: 3423
+Regression Optimized2 time: 59
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 70
+Number of Behaviours: 1
+Number of States in Behaviour 1: 70
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:34
+Times links checked0:52270
+Regression Links: 4900
+Simulation Links: 1
+System States: 70
+Target States: 70
+Regression time: 195
+------Regression Optimised----------
+Times links checked:49338
+Simulation Links:1
+RegressionOptimized Links: 4693
+Regression Optimized time: 169
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:9249
+Simulation Links2:1
+RegressionOptimized2 Links: 4693
+Regression Optimized2 time: 77
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 80
+Number of Behaviours: 1
+Number of States in Behaviour 1: 80
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:44
+Times links checked0:93693
+Regression Links: 6400
+Simulation Links: 1
+System States: 80
+Target States: 80
+Regression time: 362
+------Regression Optimised----------
+Times links checked:88922
+Simulation Links:1
+RegressionOptimized Links: 6163
+Regression Optimized time: 337
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:12169
+Simulation Links2:1
+RegressionOptimized2 Links: 6163
+Regression Optimized2 time: 118
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 90
+Number of Behaviours: 1
+Number of States in Behaviour 1: 90
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:47
+Times links checked0:129358
+Regression Links: 8100
+Simulation Links: 1
+System States: 90
+Target States: 90
+Regression time: 566
+------Regression Optimised----------
+Times links checked:126087
+Simulation Links:1
+RegressionOptimized Links: 7833
+Regression Optimized time: 525
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:15489
+Simulation Links2:1
+RegressionOptimized2 Links: 7833
+Regression Optimized2 time: 181
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 100
+Number of Behaviours: 1
+Number of States in Behaviour 1: 100
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:52
+Times links checked0:173354
+Regression Links: 10000
+Simulation Links: 1
+System States: 100
+Target States: 100
+Regression time: 825
+------Regression Optimised----------
+Times links checked:168282
+Simulation Links:1
+RegressionOptimized Links: 9703
+Regression Optimized time: 778
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:19209
+Simulation Links2:1
+RegressionOptimized2 Links: 9703
+Regression Optimized2 time: 242
+============================================================
+
+Redirecting file output back to console
+All done
+Sun Sep 20 14:01:33 EST 2009
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 10
+Number of Behaviours: 1
+Number of States in Behaviour 1: 10
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:6
+Times links checked0:224
+Regression Links: 100
+Simulation Links: 1
+System States: 10
+Target States: 10
+Regression time: 23
+------Regression Optimised----------
+Times links checked:156
+Simulation Links:1
+RegressionOptimized Links: 73
+Regression Optimized time: 18
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:129
+Simulation Links2:1
+RegressionOptimized2 Links: 73
+Regression Optimized2 time: 40
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 10
+Number of Behaviours: 1
+Number of States in Behaviour 1: 10
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:6
+Times links checked0:224
+Regression Links: 100
+Simulation Links: 1
+System States: 10
+Target States: 10
+Regression time: 6
+------Regression Optimised----------
+Times links checked:156
+Simulation Links:1
+RegressionOptimized Links: 73
+Regression Optimized time: 4
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:129
+Simulation Links2:1
+RegressionOptimized2 Links: 73
+Regression Optimized2 time: 6
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 20
+Number of Behaviours: 1
+Number of States in Behaviour 1: 20
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:11
+Times links checked0:1496
+Regression Links: 400
+Simulation Links: 1
+System States: 20
+Target States: 20
+Regression time: 50
+------Regression Optimised----------
+Times links checked:1469
+Simulation Links:1
+RegressionOptimized Links: 343
+Regression Optimized time: 38
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:649
+Simulation Links2:1
+RegressionOptimized2 Links: 343
+Regression Optimized2 time: 41
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 10
+Number of Behaviours: 1
+Number of States in Behaviour 1: 10
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:6
+Times links checked0:224
+Regression Links: 100
+Simulation Links: 1
+System States: 10
+Target States: 10
+Regression time: 3
+------Regression Optimised----------
+Times links checked:156
+Simulation Links:1
+RegressionOptimized Links: 73
+Regression Optimized time: 2
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:129
+Simulation Links2:1
+RegressionOptimized2 Links: 73
+Regression Optimized2 time: 7
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 20
+Number of Behaviours: 1
+Number of States in Behaviour 1: 20
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:11
+Times links checked0:1496
+Regression Links: 400
+Simulation Links: 1
+System States: 20
+Target States: 20
+Regression time: 34
+------Regression Optimised----------
+Times links checked:1469
+Simulation Links:1
+RegressionOptimized Links: 343
+Regression Optimized time: 18
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:649
+Simulation Links2:1
+RegressionOptimized2 Links: 343
+Regression Optimized2 time: 16
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 30
+Number of Behaviours: 1
+Number of States in Behaviour 1: 30
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:17
+Times links checked0:5564
+Regression Links: 900
+Simulation Links: 1
+System States: 30
+Target States: 30
+Regression time: 50
+------Regression Optimised----------
+Times links checked:5036
+Simulation Links:1
+RegressionOptimized Links: 813
+Regression Optimized time: 37
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:1569
+Simulation Links2:1
+RegressionOptimized2 Links: 813
+Regression Optimized2 time: 35
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 10
+Number of Behaviours: 1
+Number of States in Behaviour 1: 10
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:6
+Times links checked0:224
+Regression Links: 100
+Simulation Links: 1
+System States: 10
+Target States: 10
+Regression time: 3
+------Regression Optimised----------
+Times links checked:156
+Simulation Links:1
+RegressionOptimized Links: 73
+Regression Optimized time: 1
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:129
+Simulation Links2:1
+RegressionOptimized2 Links: 73
+Regression Optimized2 time: 2
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 20
+Number of Behaviours: 1
+Number of States in Behaviour 1: 20
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:11
+Times links checked0:1496
+Regression Links: 400
+Simulation Links: 1
+System States: 20
+Target States: 20
+Regression time: 10
+------Regression Optimised----------
+Times links checked:1469
+Simulation Links:1
+RegressionOptimized Links: 343
+Regression Optimized time: 34
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:649
+Simulation Links2:1
+RegressionOptimized2 Links: 343
+Regression Optimized2 time: 8
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 30
+Number of Behaviours: 1
+Number of States in Behaviour 1: 30
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:17
+Times links checked0:5564
+Regression Links: 900
+Simulation Links: 1
+System States: 30
+Target States: 30
+Regression time: 20
+------Regression Optimised----------
+Times links checked:5036
+Simulation Links:1
+RegressionOptimized Links: 813
+Regression Optimized time: 38
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:1569
+Simulation Links2:1
+RegressionOptimized2 Links: 813
+Regression Optimized2 time: 37
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 40
+Number of Behaviours: 1
+Number of States in Behaviour 1: 40
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:20
+Times links checked0:11422
+Regression Links: 1600
+Simulation Links: 1
+System States: 40
+Target States: 40
+Regression time: 43
+------Regression Optimised----------
+Times links checked:12111
+Simulation Links:1
+RegressionOptimized Links: 1483
+Regression Optimized time: 41
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:2889
+Simulation Links2:1
+RegressionOptimized2 Links: 1483
+Regression Optimized2 time: 37
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 10
+Number of Behaviours: 1
+Number of States in Behaviour 1: 10
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:6
+Times links checked0:224
+Regression Links: 100
+Simulation Links: 1
+System States: 10
+Target States: 10
+Regression time: 1
+------Regression Optimised----------
+Times links checked:156
+Simulation Links:1
+RegressionOptimized Links: 73
+Regression Optimized time: 3
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:129
+Simulation Links2:1
+RegressionOptimized2 Links: 73
+Regression Optimized2 time: 2
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 20
+Number of Behaviours: 1
+Number of States in Behaviour 1: 20
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:11
+Times links checked0:1496
+Regression Links: 400
+Simulation Links: 1
+System States: 20
+Target States: 20
+Regression time: 11
+------Regression Optimised----------
+Times links checked:1469
+Simulation Links:1
+RegressionOptimized Links: 343
+Regression Optimized time: 9
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:649
+Simulation Links2:1
+RegressionOptimized2 Links: 343
+Regression Optimized2 time: 8
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 30
+Number of Behaviours: 1
+Number of States in Behaviour 1: 30
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:17
+Times links checked0:5564
+Regression Links: 900
+Simulation Links: 1
+System States: 30
+Target States: 30
+Regression time: 25
+------Regression Optimised----------
+Times links checked:5036
+Simulation Links:1
+RegressionOptimized Links: 813
+Regression Optimized time: 16
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:1569
+Simulation Links2:1
+RegressionOptimized2 Links: 813
+Regression Optimized2 time: 58
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 40
+Number of Behaviours: 1
+Number of States in Behaviour 1: 40
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:20
+Times links checked0:11422
+Regression Links: 1600
+Simulation Links: 1
+System States: 40
+Target States: 40
+Regression time: 58
+------Regression Optimised----------
+Times links checked:12111
+Simulation Links:1
+RegressionOptimized Links: 1483
+Regression Optimized time: 99
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:2889
+Simulation Links2:1
+RegressionOptimized2 Links: 1483
+Regression Optimized2 time: 75
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 50
+Number of Behaviours: 1
+Number of States in Behaviour 1: 50
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:23
+Times links checked0:19864
+Regression Links: 2500
+Simulation Links: 1
+System States: 50
+Target States: 50
+Regression time: 151
+------Regression Optimised----------
+Times links checked:19175
+Simulation Links:1
+RegressionOptimized Links: 2353
+Regression Optimized time: 145
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:4609
+Simulation Links2:1
+RegressionOptimized2 Links: 2353
+Regression Optimized2 time: 96
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 10
+Number of Behaviours: 1
+Number of States in Behaviour 1: 10
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:6
+Times links checked0:224
+Regression Links: 100
+Simulation Links: 1
+System States: 10
+Target States: 10
+Regression time: 2
+------Regression Optimised----------
+Times links checked:156
+Simulation Links:1
+RegressionOptimized Links: 73
+Regression Optimized time: 1
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:129
+Simulation Links2:1
+RegressionOptimized2 Links: 73
+Regression Optimized2 time: 1
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 20
+Number of Behaviours: 1
+Number of States in Behaviour 1: 20
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:11
+Times links checked0:1496
+Regression Links: 400
+Simulation Links: 1
+System States: 20
+Target States: 20
+Regression time: 4
+------Regression Optimised----------
+Times links checked:1469
+Simulation Links:1
+RegressionOptimized Links: 343
+Regression Optimized time: 4
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:649
+Simulation Links2:1
+RegressionOptimized2 Links: 343
+Regression Optimized2 time: 4
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 30
+Number of Behaviours: 1
+Number of States in Behaviour 1: 30
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:17
+Times links checked0:5564
+Regression Links: 900
+Simulation Links: 1
+System States: 30
+Target States: 30
+Regression time: 37
+------Regression Optimised----------
+Times links checked:5036
+Simulation Links:1
+RegressionOptimized Links: 813
+Regression Optimized time: 32
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:1569
+Simulation Links2:1
+RegressionOptimized2 Links: 813
+Regression Optimized2 time: 21
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 40
+Number of Behaviours: 1
+Number of States in Behaviour 1: 40
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:20
+Times links checked0:11422
+Regression Links: 1600
+Simulation Links: 1
+System States: 40
+Target States: 40
+Regression time: 36
+------Regression Optimised----------
+Times links checked:12111
+Simulation Links:1
+RegressionOptimized Links: 1483
+Regression Optimized time: 30
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:2889
+Simulation Links2:1
+RegressionOptimized2 Links: 1483
+Regression Optimized2 time: 63
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 50
+Number of Behaviours: 1
+Number of States in Behaviour 1: 50
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:23
+Times links checked0:19864
+Regression Links: 2500
+Simulation Links: 1
+System States: 50
+Target States: 50
+Regression time: 68
+------Regression Optimised----------
+Times links checked:19175
+Simulation Links:1
+RegressionOptimized Links: 2353
+Regression Optimized time: 62
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:4609
+Simulation Links2:1
+RegressionOptimized2 Links: 2353
+Regression Optimized2 time: 30
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 60
+Number of Behaviours: 1
+Number of States in Behaviour 1: 60
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:28
+Times links checked0:30981
+Regression Links: 3600
+Simulation Links: 1
+System States: 60
+Target States: 60
+Regression time: 86
+------Regression Optimised----------
+Times links checked:29875
+Simulation Links:1
+RegressionOptimized Links: 3423
+Regression Optimized time: 79
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:6729
+Simulation Links2:1
+RegressionOptimized2 Links: 3423
+Regression Optimized2 time: 51
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 10
+Number of Behaviours: 1
+Number of States in Behaviour 1: 10
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:6
+Times links checked0:224
+Regression Links: 100
+Simulation Links: 1
+System States: 10
+Target States: 10
+Regression time: 10
+------Regression Optimised----------
+Times links checked:156
+Simulation Links:1
+RegressionOptimized Links: 73
+Regression Optimized time: 1
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:129
+Simulation Links2:1
+RegressionOptimized2 Links: 73
+Regression Optimized2 time: 1
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 20
+Number of Behaviours: 1
+Number of States in Behaviour 1: 20
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:11
+Times links checked0:1496
+Regression Links: 400
+Simulation Links: 1
+System States: 20
+Target States: 20
+Regression time: 4
+------Regression Optimised----------
+Times links checked:1469
+Simulation Links:1
+RegressionOptimized Links: 343
+Regression Optimized time: 3
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:649
+Simulation Links2:1
+RegressionOptimized2 Links: 343
+Regression Optimized2 time: 4
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 30
+Number of Behaviours: 1
+Number of States in Behaviour 1: 30
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:17
+Times links checked0:5564
+Regression Links: 900
+Simulation Links: 1
+System States: 30
+Target States: 30
+Regression time: 14
+------Regression Optimised----------
+Times links checked:5036
+Simulation Links:1
+RegressionOptimized Links: 813
+Regression Optimized time: 12
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:1569
+Simulation Links2:1
+RegressionOptimized2 Links: 813
+Regression Optimized2 time: 14
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 40
+Number of Behaviours: 1
+Number of States in Behaviour 1: 40
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:20
+Times links checked0:11422
+Regression Links: 1600
+Simulation Links: 1
+System States: 40
+Target States: 40
+Regression time: 33
+------Regression Optimised----------
+Times links checked:12111
+Simulation Links:1
+RegressionOptimized Links: 1483
+Regression Optimized time: 31
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:2889
+Simulation Links2:1
+RegressionOptimized2 Links: 1483
+Regression Optimized2 time: 20
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 50
+Number of Behaviours: 1
+Number of States in Behaviour 1: 50
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:23
+Times links checked0:19864
+Regression Links: 2500
+Simulation Links: 1
+System States: 50
+Target States: 50
+Regression time: 60
+------Regression Optimised----------
+Times links checked:19175
+Simulation Links:1
+RegressionOptimized Links: 2353
+Regression Optimized time: 62
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:4609
+Simulation Links2:1
+RegressionOptimized2 Links: 2353
+Regression Optimized2 time: 40
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 60
+Number of Behaviours: 1
+Number of States in Behaviour 1: 60
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:28
+Times links checked0:30981
+Regression Links: 3600
+Simulation Links: 1
+System States: 60
+Target States: 60
+Regression time: 103
+------Regression Optimised----------
+Times links checked:29875
+Simulation Links:1
+RegressionOptimized Links: 3423
+Regression Optimized time: 81
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:6729
+Simulation Links2:1
+RegressionOptimized2 Links: 3423
+Regression Optimized2 time: 52
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 70
+Number of Behaviours: 1
+Number of States in Behaviour 1: 70
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:34
+Times links checked0:52270
+Regression Links: 4900
+Simulation Links: 1
+System States: 70
+Target States: 70
+Regression time: 170
+------Regression Optimised----------
+Times links checked:49338
+Simulation Links:1
+RegressionOptimized Links: 4693
+Regression Optimized time: 152
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:9249
+Simulation Links2:1
+RegressionOptimized2 Links: 4693
+Regression Optimized2 time: 82
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 10
+Number of Behaviours: 1
+Number of States in Behaviour 1: 10
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:6
+Times links checked0:224
+Regression Links: 100
+Simulation Links: 1
+System States: 10
+Target States: 10
+Regression time: 12
+------Regression Optimised----------
+Times links checked:156
+Simulation Links:1
+RegressionOptimized Links: 73
+Regression Optimized time: 1
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:129
+Simulation Links2:1
+RegressionOptimized2 Links: 73
+Regression Optimized2 time: 1
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 20
+Number of Behaviours: 1
+Number of States in Behaviour 1: 20
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:11
+Times links checked0:1496
+Regression Links: 400
+Simulation Links: 1
+System States: 20
+Target States: 20
+Regression time: 31
+------Regression Optimised----------
+Times links checked:1469
+Simulation Links:1
+RegressionOptimized Links: 343
+Regression Optimized time: 3
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:649
+Simulation Links2:1
+RegressionOptimized2 Links: 343
+Regression Optimized2 time: 5
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 30
+Number of Behaviours: 1
+Number of States in Behaviour 1: 30
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:17
+Times links checked0:5564
+Regression Links: 900
+Simulation Links: 1
+System States: 30
+Target States: 30
+Regression time: 14
+------Regression Optimised----------
+Times links checked:5036
+Simulation Links:1
+RegressionOptimized Links: 813
+Regression Optimized time: 11
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:1569
+Simulation Links2:1
+RegressionOptimized2 Links: 813
+Regression Optimized2 time: 10
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 40
+Number of Behaviours: 1
+Number of States in Behaviour 1: 40
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:20
+Times links checked0:11422
+Regression Links: 1600
+Simulation Links: 1
+System States: 40
+Target States: 40
+Regression time: 33
+------Regression Optimised----------
+Times links checked:12111
+Simulation Links:1
+RegressionOptimized Links: 1483
+Regression Optimized time: 32
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:2889
+Simulation Links2:1
+RegressionOptimized2 Links: 1483
+Regression Optimized2 time: 19
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 50
+Number of Behaviours: 1
+Number of States in Behaviour 1: 50
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:23
+Times links checked0:19864
+Regression Links: 2500
+Simulation Links: 1
+System States: 50
+Target States: 50
+Regression time: 59
+------Regression Optimised----------
+Times links checked:19175
+Simulation Links:1
+RegressionOptimized Links: 2353
+Regression Optimized time: 47
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:4609
+Simulation Links2:1
+RegressionOptimized2 Links: 2353
+Regression Optimized2 time: 32
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 60
+Number of Behaviours: 1
+Number of States in Behaviour 1: 60
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:28
+Times links checked0:30981
+Regression Links: 3600
+Simulation Links: 1
+System States: 60
+Target States: 60
+Regression time: 90
+------Regression Optimised----------
+Times links checked:29875
+Simulation Links:1
+RegressionOptimized Links: 3423
+Regression Optimized time: 101
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:6729
+Simulation Links2:1
+RegressionOptimized2 Links: 3423
+Regression Optimized2 time: 63
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 70
+Number of Behaviours: 1
+Number of States in Behaviour 1: 70
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:34
+Times links checked0:52270
+Regression Links: 4900
+Simulation Links: 1
+System States: 70
+Target States: 70
+Regression time: 196
+------Regression Optimised----------
+Times links checked:49338
+Simulation Links:1
+RegressionOptimized Links: 4693
+Regression Optimized time: 177
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:9249
+Simulation Links2:1
+RegressionOptimized2 Links: 4693
+Regression Optimized2 time: 77
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 80
+Number of Behaviours: 1
+Number of States in Behaviour 1: 80
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:44
+Times links checked0:93693
+Regression Links: 6400
+Simulation Links: 1
+System States: 80
+Target States: 80
+Regression time: 408
+------Regression Optimised----------
+Times links checked:88922
+Simulation Links:1
+RegressionOptimized Links: 6163
+Regression Optimized time: 317
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:12169
+Simulation Links2:1
+RegressionOptimized2 Links: 6163
+Regression Optimized2 time: 113
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 10
+Number of Behaviours: 1
+Number of States in Behaviour 1: 10
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:6
+Times links checked0:224
+Regression Links: 100
+Simulation Links: 1
+System States: 10
+Target States: 10
+Regression time: 0
+------Regression Optimised----------
+Times links checked:156
+Simulation Links:1
+RegressionOptimized Links: 73
+Regression Optimized time: 0
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:129
+Simulation Links2:1
+RegressionOptimized2 Links: 73
+Regression Optimized2 time: 1
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 20
+Number of Behaviours: 1
+Number of States in Behaviour 1: 20
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:11
+Times links checked0:1496
+Regression Links: 400
+Simulation Links: 1
+System States: 20
+Target States: 20
+Regression time: 4
+------Regression Optimised----------
+Times links checked:1469
+Simulation Links:1
+RegressionOptimized Links: 343
+Regression Optimized time: 3
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:649
+Simulation Links2:1
+RegressionOptimized2 Links: 343
+Regression Optimized2 time: 4
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 30
+Number of Behaviours: 1
+Number of States in Behaviour 1: 30
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:17
+Times links checked0:5564
+Regression Links: 900
+Simulation Links: 1
+System States: 30
+Target States: 30
+Regression time: 13
+------Regression Optimised----------
+Times links checked:5036
+Simulation Links:1
+RegressionOptimized Links: 813
+Regression Optimized time: 12
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:1569
+Simulation Links2:1
+RegressionOptimized2 Links: 813
+Regression Optimized2 time: 9
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 40
+Number of Behaviours: 1
+Number of States in Behaviour 1: 40
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:20
+Times links checked0:11422
+Regression Links: 1600
+Simulation Links: 1
+System States: 40
+Target States: 40
+Regression time: 31
+------Regression Optimised----------
+Times links checked:12111
+Simulation Links:1
+RegressionOptimized Links: 1483
+Regression Optimized time: 27
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:2889
+Simulation Links2:1
+RegressionOptimized2 Links: 1483
+Regression Optimized2 time: 17
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 50
+Number of Behaviours: 1
+Number of States in Behaviour 1: 50
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:23
+Times links checked0:19864
+Regression Links: 2500
+Simulation Links: 1
+System States: 50
+Target States: 50
+Regression time: 53
+------Regression Optimised----------
+Times links checked:19175
+Simulation Links:1
+RegressionOptimized Links: 2353
+Regression Optimized time: 47
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:4609
+Simulation Links2:1
+RegressionOptimized2 Links: 2353
+Regression Optimized2 time: 32
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 60
+Number of Behaviours: 1
+Number of States in Behaviour 1: 60
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:28
+Times links checked0:30981
+Regression Links: 3600
+Simulation Links: 1
+System States: 60
+Target States: 60
+Regression time: 102
+------Regression Optimised----------
+Times links checked:29875
+Simulation Links:1
+RegressionOptimized Links: 3423
+Regression Optimized time: 91
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:6729
+Simulation Links2:1
+RegressionOptimized2 Links: 3423
+Regression Optimized2 time: 58
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 70
+Number of Behaviours: 1
+Number of States in Behaviour 1: 70
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:34
+Times links checked0:52270
+Regression Links: 4900
+Simulation Links: 1
+System States: 70
+Target States: 70
+Regression time: 422
+------Regression Optimised----------
+Times links checked:49338
+Simulation Links:1
+RegressionOptimized Links: 4693
+Regression Optimized time: 225
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:9249
+Simulation Links2:1
+RegressionOptimized2 Links: 4693
+Regression Optimized2 time: 88
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 80
+Number of Behaviours: 1
+Number of States in Behaviour 1: 80
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:44
+Times links checked0:93693
+Regression Links: 6400
+Simulation Links: 1
+System States: 80
+Target States: 80
+Regression time: 358
+------Regression Optimised----------
+Times links checked:88922
+Simulation Links:1
+RegressionOptimized Links: 6163
+Regression Optimized time: 290
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:12169
+Simulation Links2:1
+RegressionOptimized2 Links: 6163
+Regression Optimized2 time: 112
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 90
+Number of Behaviours: 1
+Number of States in Behaviour 1: 90
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:47
+Times links checked0:129358
+Regression Links: 8100
+Simulation Links: 1
+System States: 90
+Target States: 90
+Regression time: 506
+------Regression Optimised----------
+Times links checked:126087
+Simulation Links:1
+RegressionOptimized Links: 7833
+Regression Optimized time: 458
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:15489
+Simulation Links2:1
+RegressionOptimized2 Links: 7833
+Regression Optimized2 time: 168
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 10
+Number of Behaviours: 1
+Number of States in Behaviour 1: 10
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:6
+Times links checked0:224
+Regression Links: 100
+Simulation Links: 1
+System States: 10
+Target States: 10
+Regression time: 1
+------Regression Optimised----------
+Times links checked:156
+Simulation Links:1
+RegressionOptimized Links: 73
+Regression Optimized time: 0
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:129
+Simulation Links2:1
+RegressionOptimized2 Links: 73
+Regression Optimized2 time: 1
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 20
+Number of Behaviours: 1
+Number of States in Behaviour 1: 20
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:11
+Times links checked0:1496
+Regression Links: 400
+Simulation Links: 1
+System States: 20
+Target States: 20
+Regression time: 3
+------Regression Optimised----------
+Times links checked:1469
+Simulation Links:1
+RegressionOptimized Links: 343
+Regression Optimized time: 6
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:649
+Simulation Links2:1
+RegressionOptimized2 Links: 343
+Regression Optimized2 time: 4
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 30
+Number of Behaviours: 1
+Number of States in Behaviour 1: 30
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:17
+Times links checked0:5564
+Regression Links: 900
+Simulation Links: 1
+System States: 30
+Target States: 30
+Regression time: 70
+------Regression Optimised----------
+Times links checked:5036
+Simulation Links:1
+RegressionOptimized Links: 813
+Regression Optimized time: 11
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:1569
+Simulation Links2:1
+RegressionOptimized2 Links: 813
+Regression Optimized2 time: 34
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 40
+Number of Behaviours: 1
+Number of States in Behaviour 1: 40
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:20
+Times links checked0:11422
+Regression Links: 1600
+Simulation Links: 1
+System States: 40
+Target States: 40
+Regression time: 53
+------Regression Optimised----------
+Times links checked:12111
+Simulation Links:1
+RegressionOptimized Links: 1483
+Regression Optimized time: 30
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:2889
+Simulation Links2:1
+RegressionOptimized2 Links: 1483
+Regression Optimized2 time: 21
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 50
+Number of Behaviours: 1
+Number of States in Behaviour 1: 50
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:23
+Times links checked0:19864
+Regression Links: 2500
+Simulation Links: 1
+System States: 50
+Target States: 50
+Regression time: 78
+------Regression Optimised----------
+Times links checked:19175
+Simulation Links:1
+RegressionOptimized Links: 2353
+Regression Optimized time: 52
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:4609
+Simulation Links2:1
+RegressionOptimized2 Links: 2353
+Regression Optimized2 time: 69
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 60
+Number of Behaviours: 1
+Number of States in Behaviour 1: 60
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:28
+Times links checked0:30981
+Regression Links: 3600
+Simulation Links: 1
+System States: 60
+Target States: 60
+Regression time: 207
+------Regression Optimised----------
+Times links checked:29875
+Simulation Links:1
+RegressionOptimized Links: 3423
+Regression Optimized time: 161
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:6729
+Simulation Links2:1
+RegressionOptimized2 Links: 3423
+Regression Optimized2 time: 63
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 70
+Number of Behaviours: 1
+Number of States in Behaviour 1: 70
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:34
+Times links checked0:52270
+Regression Links: 4900
+Simulation Links: 1
+System States: 70
+Target States: 70
+Regression time: 210
+------Regression Optimised----------
+Times links checked:49338
+Simulation Links:1
+RegressionOptimized Links: 4693
+Regression Optimized time: 146
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:9249
+Simulation Links2:1
+RegressionOptimized2 Links: 4693
+Regression Optimized2 time: 77
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 80
+Number of Behaviours: 1
+Number of States in Behaviour 1: 80
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:44
+Times links checked0:93693
+Regression Links: 6400
+Simulation Links: 1
+System States: 80
+Target States: 80
+Regression time: 337
+------Regression Optimised----------
+Times links checked:88922
+Simulation Links:1
+RegressionOptimized Links: 6163
+Regression Optimized time: 288
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:12169
+Simulation Links2:1
+RegressionOptimized2 Links: 6163
+Regression Optimized2 time: 114
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 90
+Number of Behaviours: 1
+Number of States in Behaviour 1: 90
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:47
+Times links checked0:129358
+Regression Links: 8100
+Simulation Links: 1
+System States: 90
+Target States: 90
+Regression time: 483
+------Regression Optimised----------
+Times links checked:126087
+Simulation Links:1
+RegressionOptimized Links: 7833
+Regression Optimized time: 439
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:15489
+Simulation Links2:1
+RegressionOptimized2 Links: 7833
+Regression Optimized2 time: 155
+============================================================
+
+============================================================
+------Problem Characteristics----------
+Number of States in Environment: 1
+Number of States in Target: 100
+Number of Behaviours: 1
+Number of States in Behaviour 1: 100
+------Regression Original----------
+Solution doesn't exist
+Total Iterations:52
+Times links checked0:173354
+Regression Links: 10000
+Simulation Links: 1
+System States: 100
+Target States: 100
+Regression time: 715
+------Regression Optimised----------
+Times links checked:168282
+Simulation Links:1
+RegressionOptimized Links: 9703
+Regression Optimized time: 702
+------Progression Original----------
+------Regression Optimised2----------
+Times links checked2:19209
+Simulation Links2:1
+RegressionOptimized2 Links: 9703
+Regression Optimized2 time: 207
+============================================================
+
+Redirecting file output back to console
+All done

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tests>
+<test run='1' type="NumberOfBehaviours2"  outputfile='sample.txt'>
+	<environment>environment.txt</environment>
+	<behaviours>
+		<behaviour times="1">armA.txt</behaviour>
+		<behaviour times="1">armB.txt</behaviour>
+		<behaviour times="1">armC.txt</behaviour>
+	</behaviours>
+	<target amplification="21">target.txt</target>
+</test>
+</tests>

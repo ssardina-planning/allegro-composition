@@ -1,0 +1,69 @@
+<testSuite name="KR Example" xmlns="http://www.sun.com/japex/testSuite">
+        <param name="libraryDir" value="lib"/>
+        <param name="japex.classPath" value="${libraryDir}"/>
+        <param name="japex.classPath" value="dist/classes"/>       
+        <param name="japex.numberOfThreads" value="1" /> 
+      
+        <param name="japex.warmupIterations" value="0.05"/>
+        <param name="japex.runIterations" value="3"/>
+        	<param name="japex.resultUnit" value="ms"/> 
+	<param name="japex.warmupTime" value="30"/>
+	<param name="japex.reportPeakHeapUsage" value="true"/>
+	<param name="japex.reportsDirectory" value="reports/NumberOfBehaviours/Sydney"/>
+	<param name="japex.chartType" value="linechart"/>
+	<param name="japex.plotDrivers" value="true"/>
+		<param name="japex.plotGroupSize" value="10"/>
+	        
+        <driver name="RegressionDriver">
+            <param name="Description" value="Regression based approach"/>
+            <param name="japex.driverClass" value="japexDriver.RegressionDriver" />
+        </driver>
+        <driver name="RegressionOptimizedDriver">
+            <param name="Description" value="Optimized version of the Regression approach"/>
+            <param name="japex.driverClass" value="japexDriver.RegressionOptimizedDriver"/>
+        </driver>
+        <driver name="RegressionOptimizedDriver2">
+            <param name="Description" value="Optimized2 version of the Regression approach"/>
+            <param name="japex.driverClass" value="japexDriver.RegressionOptimizedDriver2"/>
+        </driver>
+        <driver name="ProgressionDriver">
+            <param name="Description" value="Progression based approach"/>
+            <param name="japex.driverClass" value="japexDriver.ProgressionDriver"/>
+        </driver>               
+        <testCase name="test1">
+        	<param name="inputfile" value="testbed/NumberOfBehaviours/Sydney/Sydney1.xml"/>        	
+        	<param name="japex.runTime" value="00:05:00"/> 
+        </testCase>
+        <testCase name="test2">
+        	<param name="inputfile" value="testbed/NumberOfBehaviours/Sydney/Sydney2.xml"/>       
+         	<param name="japex.runTime" value="00:05:00"/> 
+         </testCase>
+     <testCase name="test3">
+        	<param name="inputfile" value="testbed/NumberOfBehaviours/Sydney/Sydney3.xml"/>        	
+        	<param name="japex.runTime" value="00:05:00"/> 
+        </testCase>
+        <testCase name="test4">
+        	<param name="inputfile" value="testbed/NumberOfBehaviours/Sydney/Sydney4.xml"/>       
+         	<param name="japex.runTime" value="00:05:00"/> 
+         </testCase>
+     <testCase name="test5">
+        	<param name="inputfile" value="testbed/NumberOfBehaviours/Sydney/Sydney5.xml"/>        	
+        	<param name="japex.runTime" value="00:10:00"/> 
+        </testCase>
+        <testCase name="test6">
+        	<param name="inputfile" value="testbed/NumberOfBehaviours/Sydney/Sydney6.xml"/>       
+         	<param name="japex.runTime" value="00:10:00"/> 
+         </testCase>
+ 		<testCase name="test7">
+        	<param name="inputfile" value="testbed/NumberOfBehaviours/Sydney/Sydney7.xml"/>        	
+        	<param name="japex.runTime" value="00:15:00"/> 
+        </testCase>
+        <testCase name="test8">
+        	<param name="inputfile" value="testbed/NumberOfBehaviours/Sydney/Sydney8.xml"/>       
+         	<param name="japex.runTime" value="00:15:00"/> 
+         </testCase>
+     	 <testCase name="test9">
+        	<param name="inputfile" value="testbed/NumberOfBehaviours/Sydney/Sydney9.xml"/>        	
+        	<param name="japex.runTime" value="00:30:00"/> 
+        </testCase>
+          </testSuite>

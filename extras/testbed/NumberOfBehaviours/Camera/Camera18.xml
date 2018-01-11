@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tests>
+<test run='1' type="NumberOfBehaviours1" outputfile='sample.txt'>
+	<environment>environment.txt</environment>
+	<behaviours>
+		<behaviour times="18">camera.txt</behaviour>
+	</behaviours>
+	<target>target.txt</target>
+</test>
+</tests>

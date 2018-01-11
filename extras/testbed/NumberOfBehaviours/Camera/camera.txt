@@ -1,0 +1,14 @@
+digraph TS_A {
+a0 -> a0[label ="send"][legal={*}]
+a0 -> a0[label ="freehdd"][legal={*}]
+a0 -> a1[label ="track"][legal={*}]
+a1 -> a0[label ="track"][legal={*}]
+a1 -> a0[label ="photo"][legal={*}]
+a1 -> a1[label ="send"][legal={*}]
+a1 -> a1[label ="freehdd"][legal={*}]
+a1 -> a2[label="photo"][legal={*}]
+a2 -> a2[label="freehdd"][legal={*}]
+a2 -> a0[label="send"][legal={*}]
+[initial = {a0}]
+[final = {a0,a1}]
+}

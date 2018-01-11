@@ -1,0 +1,10 @@
+digraph TS_T {
+t1 -> t2[label ="a"][legal={*}]
+t2 -> t2[label ="b"][legal={*}]
+t2 -> t3 [label="c"][legal={*}]
+t3 -> t4 [label = "a"][legal={*}]
+t4 -> t5 [label = "b"][legal={*}]
+t5 -> t6 [label="a"][legal={*}]
+[initial = {t1}]
+[final = {t1,t6}]
+}

@@ -1,0 +1,18 @@
+digraph TS_A {
+s1 -> s2[label ="a"][legal={*}]
+s2 -> s1[label ="c"][legal={*}]
+s1 -> s3 [label="a"][legal={*}]
+s3 -> s4 [label = "b"][legal={*}]
+s4 -> s5 [label = "a"][legal={*}]
+s5 -> s4 [label="b"][legal={*}]
+s4 -> s6 [label="a"][legal={*}]
+s6 -> s7 [label="c"][legal={*}]
+s7 -> s6 [label="c"][legal={*}]
+s7 -> s8 [label="a"][legal={*}]
+s8 -> s9 [label="b"][legal={*}]
+s9 -> s10 [label="a"][legal={*}]
+s8 -> s9 [label="b"][legal={*}]
+[initial = {s1}]
+[final = {s1,s2,s5,s6,s10}]
+}
+

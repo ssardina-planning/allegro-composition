@@ -6,15 +6,14 @@
       
 	<param name="japex.resultUnit" value="ms"/> 
 	<param name="japex.warmupTime" value="30"/>
-	<param name="japex.reportPeakHeapUsage" value="true"/>
-	<param name="japex.reportsDirectory" value="reports/NumberOfBehaviours/KR"/>
-	<param name="japex.chartType" value="linechart"/>
-	<param name="japex.plotDrivers" value="true"/>
-	<param name="japex.plotGroupSize" value="10"/>
 	
         <param name="japex.warmupIterations" value="0.05"/>
         <param name="japex.runIterations" value="3"/>
-                
+	<param name="japex.reportsDirectory" value="reports/NoSolution/KR"/>
+	<param name="japex.chartType" value="linechart"/>
+	<param name="japex.plotDrivers" value="true"/>
+	<param name="japex.plotGroupSize" value="10"/>
+	                
         <driver name="RegressionDriver">
             <param name="Description" value="Regression based approach"/>
             <param name="japex.driverClass" value="japexDriver.RegressionDriver" />
@@ -30,25 +29,37 @@
         <driver name="ProgressionDriver">
             <param name="Description" value="Progression based approach"/>
             <param name="japex.driverClass" value="japexDriver.ProgressionDriver"/>
-        </driver>               
+        </driver>       
+        <testCase name="test0">
+        	<param name="inputfile" value="testbed/NoSolution/KR/KR0.xml"/>        	
+        	<param name="japex.runTime" value="00:01:00"/> 
+        </testCase>        
         <testCase name="test1">
-        	<param name="inputfile" value="/home/nitin/workspace/BehaviourCompositionProblem/testbed/NumberOfBehaviours/KR/KR1.xml"/>        	
-        	<param name="japex.runTime" value="00:05:00"/> 
+        	<param name="inputfile" value="testbed/NoSolution/KR/KR1.xml"/>        	
+        	<param name="japex.runTime" value="00:01:00"/> 
         </testCase>
         <testCase name="test2">
-        	<param name="inputfile" value="/home/nitin/workspace/BehaviourCompositionProblem/testbed/NumberOfBehaviours/KR/KR2.xml"/>       
-         	<param name="japex.runTime" value="00:10:00"/> 
+        	<param name="inputfile" value="testbed/NoSolution/KR/KR2.xml"/>       
+         	<param name="japex.runTime" value="00:01:00"/> 
          </testCase>
      <testCase name="test3">
-        	<param name="inputfile" value="/home/nitin/workspace/BehaviourCompositionProblem/testbed/NumberOfBehaviours/KR/KR3.xml"/>        	
-        	<param name="japex.runTime" value="00:15:00"/> 
+        	<param name="inputfile" value="testbed/NoSolution/KR/KR3.xml"/>        	
+        	<param name="japex.runTime" value="00:01:00"/> 
         </testCase>
         <testCase name="test4">
-        	<param name="inputfile" value="/home/nitin/workspace/BehaviourCompositionProblem/testbed/NumberOfBehaviours/KR/KR4.xml"/>       
-         	<param name="japex.runTime" value="00:20:00"/> 
+        	<param name="inputfile" value="testbed/NoSolution/KR/KR4.xml"/>       
+         	<param name="japex.runTime" value="00:01:00"/> 
          </testCase>
-        <testCase name="test5">
-        	<param name="inputfile" value="/home/nitin/workspace/BehaviourCompositionProblem/testbed/NumberOfBehaviours/KR/KR5.xml"/>       
-         	<param name="japex.runTime" value="01:00:00"/> 
+     <testCase name="test5">
+        	<param name="inputfile" value="testbed/NoSolution/KR/KR5.xml"/>        	
+        	<param name="japex.runTime" value="00:01:00"/> 
+        </testCase>
+        <testCase name="test6">
+        	<param name="inputfile" value="testbed/NoSolution/KR/KR6.xml"/>       
+         	<param name="japex.runTime" value="00:01:00"/> 
          </testCase>
-    </testSuite>
+ 		<testCase name="test7">
+        	<param name="inputfile" value="testbed/NoSolution/KR/KR7.xml"/>        	
+        	<param name="japex.runTime" value="00:02:00"/> 
+        </testCase>
+   </testSuite>

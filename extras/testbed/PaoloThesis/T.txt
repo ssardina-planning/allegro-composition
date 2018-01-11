@@ -1,0 +1,17 @@
+digraph TS_TARGET {
+S1 -> S2 [label="a"][legal={*}]
+S2 -> S3 [label="c"][legal={*}]
+S3 -> S4 [label="a"][legal={*}]
+S4 -> S5 [label="b"][legal={*}]
+S4 -> S8 [label="d"][legal={*}]
+S5 -> S6 [label="a"][legal={*}]
+S5 -> S7 [label="c"][legal={*}]
+S6 -> S5 [label="d"][legal={*}]
+S7 -> S7 [label="b"][legal={*}]
+S8 -> S9 [label="c"][legal={*}]
+S8 -> S10 [label="d"][legal={*}]
+S9 -> S9 [label="b"][legal={*}]
+S10 -> S10 [label="b"][legal={*}]
+[initial = {S1} ]
+[final = {S1,S7,S9,S10} ]
+}

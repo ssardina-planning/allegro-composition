@@ -1,0 +1,7 @@
+digraph TS_A {
+c1 -> c2[label ="recharge"][legal={*}]
+c2 -> c1[label ="paint"][legal={*}]
+c2 -> c2[label ="prepare"][legal={*}]
+[initial = {c1}]
+[final = {c1}]
+}
