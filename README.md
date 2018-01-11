@@ -1,4 +1,4 @@
-# ALLEGRO Composition System
+# ALLEGRO Composition System and Benchmarking Framework
 
 ALLEGRO is a system for solving and benchmarking behavior composition problems.  A behavior composition problem involves realising a virtual target behavior by coordinating the available behaviors. The fremwork here is part of the following Master Thesis:
 
@@ -15,7 +15,7 @@ ALLEGRO implements two type of solution techniques:
 
 2. The **search-based technique** implemented by Thomas Stroder and Maurice Pagnucco as a proof-of-concept for their IJCAI'09 article:
 
-    * Thomas StrÃ¶der, Maurice Pagnucco. [Realising Deterministic Behavior from Multiple Non-Deterministic Behaviors](http://www.ijcai.org/Proceedings/09/Papers/159.pdf). IJCAI 2009: 936-941
+    * Thomas Ströder, Maurice Pagnucco. [Realising Deterministic Behavior from Multiple Non-Deterministic Behaviors](http://www.ijcai.org/Proceedings/09/Papers/159.pdf). IJCAI 2009: 936-941
 
 This README outlines the basic steps to run the ALLEGRO system. The distribution contains both the binary and the source code. An example has been included, in the examples folder, which can serve as a sample to create new problems. A testbed is also provided under `extras/testbed` to run with JAPEX benchmarking system.
 
