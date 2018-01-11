@@ -54,7 +54,9 @@ The JavaCC plugins for the IDEs can be found here:
 
 The pre-compiled jar package is present in the root directory by the name of `Allegro.jar`. In order to run allegro one needs to pass the behavior composition problem defined as a XML file (see Section 2.2). A sample problem definition is present in the `examples/KR` folder. The solution to the problem can either be redirected to the console or saved in a file. The arguments are passed to the system using the following syntax:
         
-        java -jar allegro.jar --i=example/KR/KR1.xml --o=sample.txt
+```
+java -jar allegro.jar --i=example/KR/KR1.xml --o=sample.txt
+```
 
 where `--i` denotes the input XML file and `--o` denotes the output file (if  omitted the result is shown in the console).
 
@@ -63,17 +65,17 @@ where `--i` denotes the input XML file and `--o` denotes the output file (if  om
 
 All the source code is present in the `src` directory. In order to compile ALLEGRO one just needs to compile the `Main.java` file, i.e., 
 
-        ```
-        javac Main.java
-        ```
+```
+javac Main.java
+```
 
 If before that you want to re-generate the Java sources for the JavaCC grammars, go to the file where the `.jj` file is and execute `javacc <file.jj>`. This should leave many Java sources.
 
 Finally, to run it from the compiled sources (for example after compilation inside IntelliJ):
 
-        ```
-        java -cp out/production/allegro-composer.git/ Main --i=example/KR/KR1.xml
-        ```
+```
+java -cp out/production/allegro-composer.git/ Main --i=example/KR/KR1.xml
+```
 
 ## 2. Creating a new behavior composition problem.
 
