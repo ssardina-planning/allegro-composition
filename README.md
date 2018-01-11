@@ -1,6 +1,11 @@
 # ALLEGRO Composition System and Benchmarking Framework
 
-ALLEGRO is a system for solving and benchmarking behavior composition problems.  A behavior composition problem involves realising a virtual target behavior by coordinating the available behaviors. The fremwork here is part of the following Master Thesis:
+ALLEGRO is a system for solving and benchmarking behavior composition problems.  A behavior composition problem involves realising a virtual target behavior by coordinating the available behaviors:
+
+* Giuseppe De Giacomo and Sebastian Sardina. [Automatic synthesis of new behaviors from a library of available behaviors](https://www.ijcai.org/Proceedings/07/Papers/301.pdf). In Manuela M. Veloso, editor, Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI), pages 1866-1871, Hyderabad, India, January 2007.
+* Giuseppe De Giacomo, Fabio Patrizi, and Sebastian Sardina. [Automatic behavior composition synthesis](http://dx.doi.org/10.1016/j.artint.2012.12.001). Artificial Intelligence Journal, 196:106-142, 2013. (author free copy [here](https://sites.google.com/site/ssardina/publications/aij13-dgps-autocomp.pdf?attredirects=0)
+
+The fraemwork here is part of the following Master Thesis:
 
 * Nitin Yadav. _Implementation and Analysis of Behaviour Composition Problem using Simulation_. Master Minor Thesis, RMIT University, 2009. (document available under `extras/msc-thesis`).
 
@@ -8,7 +13,7 @@ ALLEGRO implements two type of solution techniques:
 
 1. The **simulation-based technique** for non-deterministic composition problems was developed here:
 
-    * Giuseppe De Giacomo and Sebastian Sardina. [Automatic synthesis of new behaviors from a library of available behaviors](https://www.ijcai.org/Proceedings/07/Papers/301.pdf). In Manuela M. Veloso, editor, Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI), pages 1866-1871, Hyderabad, India, January 2007.
+    * Sebastian Sardina, Fabio Patrizi, and Giuseppe De Giacomo. Behavior composition in the presence of failure. In Gerhard Brewka and Jerome Lang, editors, Proceedings of Principles of Knowledge Representation and Reasoning (KR), pages 640-650, Sydney, Australia, September 2008. AAAI Press. 
     * Giuseppe De Giacomo, Fabio Patrizi, and Sebastian Sardina. [Automatic behavior composition synthesis](http://dx.doi.org/10.1016/j.artint.2012.12.001). Artificial Intelligence Journal, 196:106-142, 2013. (author free copy [here](https://sites.google.com/site/ssardina/publications/aij13-dgps-autocomp.pdf?attredirects=0)
 
     The plain technique and two optimisations have been implemented by the authors of ALLEGRO. 
