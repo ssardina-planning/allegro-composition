@@ -24,6 +24,10 @@ ALLEGRO implements two type of solution techniques:
 
 This README outlines the basic steps to run the ALLEGRO system. The distribution contains both the binary and the source code. An example has been included, in the examples folder, which can serve as a sample to create new problems. A testbed is also provided under `extras/testbed` to run with JAPEX benchmarking system.
 
+A related project is the [ALLEGRO Testbed Generator](https://bitbucket.org/ssardina-research/allegro-testbed-generator) to generate composition problem instances in the DOT format used by ALLEGRO.
+
+-----------------------------------
+
 ## Table of Contents
 
 1. Compiling and Running.
